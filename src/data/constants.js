@@ -4,7 +4,7 @@ export const Bio = {
     description:
         "I'm a software engineer currently working at TopOfStack Software Ltd. I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: 'https://github.com/hasancsecu',
-    resume: 'https://drive.google.com/file/d/1iZSlLQWM-3nxzRN6T4cK1bjzjT9jFJo8/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1fn39xwQyH77SsIF8hPbl6CFnQ9wEs1TU/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
     facebook: 'https://web.facebook.com/profile.php?id=100093932103965',
     skype: 'https://join.skype.com/invite/AdNqwqRL2xbt',
