@@ -1,8 +1,8 @@
 # My Portfolio
 
-Welcome to my portfolio! This project showcases my skills, projects, and experiences as a full stack web developer.
+Welcome to my portfolio! This project showcases my skills, projects, and experiences as a full-stack web developer.
 
-### Weblink: [Live Website](https://hasancsecu.github.io)
+### Weblink: [Live Website](https://hasancsecu.github.io/portfolio/)
 
 ## Table of Contents
 
