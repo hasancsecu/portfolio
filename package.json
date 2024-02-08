@@ -1,7 +1,7 @@
 {
     "name": "muhammad-hasan-portfolio",
     "version": "0.1.0",
-    "homepage": "https://hasancsecu.github.io",
+    "homepage": "https://hasancsecu.github.io/portfolio",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^3.11.0",
