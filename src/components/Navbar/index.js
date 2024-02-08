@@ -21,7 +21,7 @@ import ContrastIcon from '@mui/icons-material/Contrast';
 
 const Navbar = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
-    const [darkTheme, setDarkTheme] = React.useState(true);
+    const [darkTheme, setDarkTheme] = React.useState(false);
     const theme = useTheme();
     const changeDarkTheme = () => {
         setDarkTheme(false);
@@ -35,9 +35,9 @@ const Navbar = (props) => {
         <Nav>
             <NavbarContainer>
                 <NavLogo to="/">
-                    <a style={{ display: 'flex', alignItems: 'center', color: '#854CE6', marginBottom: '20;', cursor: 'pointer' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', color: '#854CE6', marginBottom: '20;', cursor: 'pointer' }}>
                         <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-                    </a>
+                    </span>
                 </NavLogo>
                 <MobileIcon>
                     <FaBars
