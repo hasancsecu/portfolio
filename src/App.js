@@ -33,7 +33,7 @@ function App() {
         <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
             <Router>
                 <Navbar
-                    handleTheme={(value) => {
+                    changeTheme={(value) => {
                         setDarkMode(value);
                     }}
                 />

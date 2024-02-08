@@ -21,15 +21,15 @@ import ContrastIcon from '@mui/icons-material/Contrast';
 
 const Navbar = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
-    const [darkTheme, setDarkTheme] = React.useState(false);
+    const [darkIcon, setDarkIcon] = React.useState(false);
     const theme = useTheme();
     const changeDarkTheme = () => {
-        setDarkTheme(false);
-        props.handleTheme(darkTheme);
+        setDarkIcon(false);
+        props.changeTheme(darkIcon);
     };
     const changeLightTheme = () => {
-        setDarkTheme(true);
-        props.handleTheme(darkTheme);
+        setDarkIcon(true);
+        props.changeTheme(darkIcon);
     };
     return (
         <Nav>
@@ -58,8 +58,8 @@ const Navbar = (props) => {
                     <GitHubButton href={Bio.github} target="_blank">
                         Github Profile
                     </GitHubButton>
-                    {darkTheme && <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />}
-                    {!darkTheme && (
+                    {darkIcon && <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />}
+                    {!darkIcon && (
                         <ContrastIcon color="primary" style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeLightTheme} />
                     )}
                 </ButtonContainer>
