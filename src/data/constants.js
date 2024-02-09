@@ -145,20 +145,20 @@ export const experiences = [
     {
         id: 0,
         img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
-        role: 'Full Stack Developer Intern',
-        company: 'TopOfStack Software Ltd.',
-        date: 'Sept 2021 - Dec 2021',
-        desc: 'As a Full Stack Intern, I worked on both the MEAN and MEVN stacks. Crafting visually appealing user interfaces with HTML, CSS, and JavaScript, I seamlessly integrated front-end and back-end elements. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with technologies like MySQL, Express.js, and Node.js. This internship equipped me with a versatile skill set, laying the foundation for a successful career in technology.',
-        skills: ['Node.js', 'Express.js', 'Angular', 'Vue', 'Material UI', 'HTML', 'CSS', 'JavaScript'],
-    },
-    {
-        id: 1,
-        img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
         role: 'Software Engineer',
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Present',
         desc: "As a Full Stack Developer, I seamlessly integrated MySQL, PostgreSQL, MongoDB, Express.js, Angular, React.js, Next.js, and Node.js to create dynamic and visually appealing user interfaces. My role involved crafting responsive front-end elements with HTML, CSS, and JavaScript while implementing robust server-side logic. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in the MEAN and MERN stack technologies, I've gained a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
         skills: ['Node.js', 'Express.js', 'MySQL', 'PostgreSQL', 'MongoDB', 'Angular', 'React.js', ' Next.Js', 'Material UI'],
+    },
+    {
+        id: 1,
+        img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
+        role: 'Full Stack Developer Intern',
+        company: 'TopOfStack Software Ltd.',
+        date: 'Sept 2021 - Dec 2021',
+        desc: 'As a Full Stack Intern, I worked on both the MEAN and MEVN stacks. Crafting visually appealing user interfaces with HTML, CSS, and JavaScript, I seamlessly integrated front-end and back-end elements. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with technologies like MySQL, Express.js, and Node.js. This internship equipped me with a versatile skill set, laying the foundation for a successful career in technology.',
+        skills: ['Node.js', 'Express.js', 'Angular', 'Vue', 'Material UI', 'HTML', 'CSS', 'JavaScript'],
     },
 ];
 

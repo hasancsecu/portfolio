@@ -120,6 +120,8 @@ const Navbar = (props) => {
                         >
                             Github Profile
                         </GitHubButton>
+                        {darkIcon && <DarkModeIcon onClick={changeDarkTheme} />}
+                        {!darkIcon && <ContrastIcon color="primary" onClick={changeLightTheme} />}
                     </MobileMenu>
                 )}
             </NavbarContainer>
