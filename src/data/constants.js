@@ -369,4 +369,28 @@ export const projects = [
             },
         ],
     },
+    {
+        id: 10,
+        title: 'Ecommerce',
+        date: 'Jan 2020 - June 2020',
+        description:
+            'A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ecommerce.png?raw=true',
+        tags: ['php', 'Laravel', 'MySQL', 'Authentication', 'post mail'],
+        category: 'fullstack',
+        github: 'https://github.com/hasancsecu/ecommerce',
+        webapp: 'https://github.com/hasancsecu/ecommerce',
+    },
+    {
+        id: 11,
+        title: 'Tour Management',
+        date: 'Oct 2020 - May 2021',
+        description:
+            'A web app to manage tours. Developed Using Node.js, Express.js, MongoDB, Nodemailer, Pug, JWT Authentication. Responsible for designing the website (front-end) and developing the API (back-end).',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/tour-management.png?raw=true',
+        tags: ['Node.Js', 'Express.Js', 'MongoDB', 'Pug', 'Redis', 'JWT Authentication', 'Nodemailer'],
+        category: 'fullstack',
+        github: 'https://github.com/hasancsecu/find_tours',
+        webapp: 'https://github.com/hasancsecu/find_tours',
+    },
 ];
