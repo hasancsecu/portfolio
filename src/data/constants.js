@@ -312,10 +312,10 @@ export const projects = [
         title: 'United Garments Manufacturing',
         date: 'Feb 2022 - Oct 2022',
         description:
-            'A Web App to manage garment products and orders. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end) and developing some APIs (back-end).',
+            'A Web App to manage garment products and orders. Developed Using Node, Express, MongoDB, and Angular. Responsible for designing the website.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ugm.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Redis', 'JWT Authentication', 'Nodemailer'],
-        category: 'fullstack',
+        tags: ['Node.Js', 'Express.Js', 'MongoDB', 'Angular', 'JWT Authentication', 'Wordpress'],
+        category: 'frontend',
         github: 'https://gitlab.com/imtiaztos/apparel-website',
         webapp: 'https://www.unitedgarmentsmanufacturing.com/',
         member: [
