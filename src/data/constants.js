@@ -251,7 +251,7 @@ export const projects = [
         date: 'Feb 2023 - Oct 2023',
         description:
             'A web app developed for MuslimBangla Android and MuslimBangla iOS app where users can participate in daily quizzes, show their positions on the leaderboard, and also contribute questions to the quiz. Developed Using Node, Express, MySQL,  JWT Authentication, Redis, and Angular. Responsible for designing the web app (front-end) and developing the API (back-end). See the “Quiz section” on the apps below',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.webp?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/tos-quiz',
