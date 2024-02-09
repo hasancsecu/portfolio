@@ -109,16 +109,8 @@ export const skills = [
     //             image: 'https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png',
     //         },
     //         {
-    //             name: 'Grafana',
-    //             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png',
-    //         },
-    //         {
     //             name: 'Kubernetes',
     //             image: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png',
-    //         },
-    //         {
-    //             name: 'Prometheus',
-    //             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png',
     //         },
     //     ],
     // },
@@ -202,16 +194,16 @@ export const education = [
 
 export const projects = [
     {
-        id: 11,
-        title: 'DecisionHub',
-        date: 'Jan 2024 - Dec 2023',
+        id: 0,
+        title: 'Muslim Bangla',
+        date: 'Sept 2021 - Feb 2024',
         description:
-            'A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.',
-        image: 'https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg',
-        tags: ['React Js', 'PostgressSQL', 'Node Js', 'Express Js', 'Redux', 'React Flow'],
+            'A website where you can find the Quran, Hadith, Prayer time, Dua, Masail, Article, Lecture, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end), integrating payment with bKash, Nagad, and AmarPay (front-end and back-end), developing and improving the API (back-end)',
+        image: '',
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Payment Gateway'],
         category: 'web app',
-        github: 'https://github.com/rishavchanda/DecisionHub',
-        webapp: 'https://decisionhub.netlify.app/',
+        github: 'https://gitlab.com/imtiaztos/muslimbangla-web',
+        webapp: 'https://muslimbangla.com/',
     },
     {
         id: 9,
