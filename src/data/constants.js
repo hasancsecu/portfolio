@@ -260,7 +260,7 @@ export const projects = [
     {
         id: 3,
         title: 'Hadith Webview',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Jan 2022 - June 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Redis, and Angular. Responsible for designing the web app (front-end) and developing some APIs (back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/hadith.jpg?raw=true',
@@ -272,7 +272,7 @@ export const projects = [
     {
         id: 4,
         title: 'Masail Webview',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'June 2022 - Aug 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/masail.jpg?raw=true',
@@ -284,7 +284,7 @@ export const projects = [
     {
         id: 5,
         title: 'Article Webview',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Sept 2022 - Nov 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/article.jpg?raw=true',
@@ -296,7 +296,7 @@ export const projects = [
     {
         id: 6,
         title: 'Lecture Webview',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Dec 2022 - Feb 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.jpg?raw=true',
@@ -308,7 +308,7 @@ export const projects = [
     {
         id: 7,
         title: 'Muslim Dawah',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Jan 2023 - Oct 2023',
         description:
             'A website where you can find the Quran, Hadith, Prayer time, Dua, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimdawah.png?raw=true',
@@ -320,7 +320,7 @@ export const projects = [
     {
         id: 8,
         title: 'Muslim Dawah Admin',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Jan 2023 - Oct 2023',
         description:
             'An admin panel to update and insert data of the API for mobile app associate with it. Responsible for developing the API using Node, MySQL, Redis, Nodemailer, and JWT Authentication. ',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimdawah-admin.png?raw=true',
@@ -332,7 +332,7 @@ export const projects = [
     {
         id: 9,
         title: 'United Garments Manufacturing',
-        date: 'Feb 2023 - Oct 2023',
+        date: 'Feb 2022 - Oct 2022',
         description:
             'A Web App to manage garment products and orders. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end) and developing some APIs (back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ugm.png?raw=true',
