@@ -10,7 +10,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         <Container id="projects">
             <Wrapper>
                 <Title>Projects</Title>
-                <Desc>I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</Desc>
+                <Desc>I have worked on a wide range of projects. Here are some of my projects.</Desc>
                 <ToggleButtonGroup>
                     {toggle === 'all' ? (
                         <ToggleButton active value="all" onClick={() => setToggle('all')}>
@@ -22,33 +22,33 @@ const Projects = ({ openModal, setOpenModal }) => {
                         </ToggleButton>
                     )}
                     <Divider />
-                    {toggle === 'web app' ? (
-                        <ToggleButton active value="web app" onClick={() => setToggle('web app')}>
-                            WEB APP'S
+                    {toggle === 'fullstack' ? (
+                        <ToggleButton active value="fullstack" onClick={() => setToggle('fullstack')}>
+                            FULL STACK
                         </ToggleButton>
                     ) : (
-                        <ToggleButton value="web app" onClick={() => setToggle('web app')}>
-                            WEB APP'S
+                        <ToggleButton value="fullstack" onClick={() => setToggle('fullstack')}>
+                            FULL STACK
                         </ToggleButton>
                     )}
                     <Divider />
-                    {toggle === 'android app' ? (
-                        <ToggleButton active value="android app" onClick={() => setToggle('android app')}>
-                            ANDROID APP'S
+                    {toggle === 'frontend' ? (
+                        <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>
+                            FRONTEND
                         </ToggleButton>
                     ) : (
-                        <ToggleButton value="android app" onClick={() => setToggle('android app')}>
-                            ANDROID APP'S
+                        <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>
+                            FRONTEND
                         </ToggleButton>
                     )}
                     <Divider />
-                    {toggle === 'machine learning' ? (
-                        <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>
-                            MACHINE LEARNING
+                    {toggle === 'backend' ? (
+                        <ToggleButton active value="backend" onClick={() => setToggle('backend')}>
+                            BACKEND
                         </ToggleButton>
                     ) : (
-                        <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>
-                            MACHINE LEARNING
+                        <ToggleButton value="backend" onClick={() => setToggle('backend')}>
+                            BACKEND
                         </ToggleButton>
                     )}
                 </ToggleButtonGroup>
