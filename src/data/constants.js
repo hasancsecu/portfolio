@@ -200,7 +200,7 @@ export const projects = [
         description:
             'A website where you can find the Quran, Hadith, Prayer time, Dua, Masail, Article, Lecture, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end), integrating payment with bKash, Nagad, and AmarPay (front-end and back-end), developing and improving the API (back-end)',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Payment Gateway', 'Meilisearch'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Payment Gateway', 'Meilisearch', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-web',
         webapp: 'https://muslimbangla.com/',
@@ -226,7 +226,7 @@ export const projects = [
         description:
             'An admin panel for Muslim Bangla app and website with which all the data of the app are managed. Developed Using Node, Express, MySQL, JWT Authentication, Redis, Nodemailer, and Angular. Responsible for adding many features and improving previous ones (front-end and back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla-admin.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'Nodemailer', 'Meilisearch'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'Nodemailer', 'Meilisearch', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-admin',
         webapp: 'https://api.topofstacksoftware.com/muslimbangla-admin',
@@ -252,7 +252,7 @@ export const projects = [
         description:
             'A web app developed for MuslimBangla Android and MuslimBangla iOS app where users can participate in daily quizzes, show their positions on the leaderboard, and also contribute questions to the quiz. Developed Using Node, Express, MySQL,  JWT Authentication, Redis, and Angular. Responsible for designing the web app (front-end) and developing the API (back-end). See the “Quiz" section on the app',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.jpg?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/tos-quiz',
         webapp: 'https://play.google.com/store/apps/details?id=com.tos.namajtime',
@@ -295,6 +295,18 @@ export const projects = [
     },
     {
         id: 6,
+        title: 'Lecture Webview',
+        date: 'Feb 2023 - Oct 2023',
+        description:
+            'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.jpg?raw=true',
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular'],
+        category: 'frontend',
+        github: 'https://gitlab.com/imtiaztos/muslimbangla-mobile-lecture',
+        webapp: 'https://lecture.muslimbangla.com/',
+    },
+    {
+        id: 7,
         title: 'Muslim Dawah',
         date: 'Feb 2023 - Oct 2023',
         description:
@@ -304,5 +316,29 @@ export const projects = [
         category: 'frontend',
         github: 'https://gitlab.com/imtiaztos/muslimdawah-web',
         webapp: 'https://muslimdawah.org/',
+    },
+    {
+        id: 8,
+        title: 'Muslim Dawah Admin',
+        date: 'Feb 2023 - Oct 2023',
+        description:
+            'An admin panel to update and insert data of the API for mobile app associate with it. Responsible for developing the API using Node, MySQL, Redis, Nodemailer, and JWT Authentication. ',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimdawah-admin.png?raw=true',
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Redis', 'JWT Authentication', 'Nodemailer'],
+        category: 'backend',
+        github: 'https://gitlab.com/imtiaztos/muslimdawah-admin-api',
+        webapp: 'https://admin.muslimdawah.org/',
+    },
+    {
+        id: 9,
+        title: 'United Garments Manufacturing',
+        date: 'Feb 2023 - Oct 2023',
+        description:
+            'A Web App to manage garment products and orders. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end) and developing some APIs (back-end).',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ugm.png?raw=true',
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Redis', 'JWT Authentication', 'Nodemailer'],
+        category: 'fullstack',
+        github: 'https://gitlab.com/imtiaztos/apparel-website',
+        webapp: 'https://www.unitedgarmentsmanufacturing.com/',
     },
 ];
