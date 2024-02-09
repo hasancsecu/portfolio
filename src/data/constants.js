@@ -328,6 +328,20 @@ export const projects = [
         category: 'backend',
         github: 'https://gitlab.com/imtiaztos/muslimdawah-admin-api',
         webapp: 'https://admin.muslimdawah.org/',
+        member: [
+            {
+                name: 'Muhammad Hasan',
+                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
+                github: 'https://github.com/hasancsecu/',
+            },
+            {
+                name: 'Sidratul Islam',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                linkedin: 'https://www.linkedin.com/in/sidratul-islam',
+                github: 'https://github.com/SidratulIslam',
+            },
+        ],
     },
     {
         id: 9,
@@ -340,5 +354,19 @@ export const projects = [
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/apparel-website',
         webapp: 'https://www.unitedgarmentsmanufacturing.com/',
+        member: [
+            {
+                name: 'Muhammad Hasan',
+                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
+                github: 'https://github.com/hasancsecu/',
+            },
+            {
+                name: 'Sidratul Islam',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                linkedin: 'https://www.linkedin.com/in/sidratul-islam',
+                github: 'https://github.com/SidratulIslam',
+            },
+        ],
     },
 ];
