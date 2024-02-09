@@ -174,7 +174,7 @@ const Button = styled.a`
     transition: all 0.5s ease;
     &:hover {
         background-color: ${({ theme }) => theme.primary + 99};
-        color: ${({ theme }) => theme.primary + 99};
+        color: ${({ theme }) => theme.white + 99};
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
