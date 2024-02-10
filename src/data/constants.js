@@ -289,7 +289,7 @@ export const projects = [
         date: 'Feb 2023 - Oct 2023',
         description:
             'A web app developed for MuslimBangla Android and MuslimBangla iOS app where users can participate in daily quizzes, show their positions on the leaderboard, and also contribute questions to the quiz. Developed Using Node, Express, MySQL,  JWT Authentication, Redis, and Angular. Responsible for designing the web app (front-end) and developing the API (back-end). See the “Quiz" section on the app',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.jpg?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/tos-quiz',
@@ -339,7 +339,7 @@ export const projects = [
         date: 'Jan 2022 - June 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Redis, and Angular. Responsible for designing the web app (front-end) and developing some APIs (back-end).',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/hadith.jpg?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/hadith.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Redis'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-mobile-hadith',
@@ -351,7 +351,7 @@ export const projects = [
         date: 'Sept 2022 - Nov 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/article.jpg?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/article.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Meilisearch'],
         category: 'frontend',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-mobile-article',
@@ -363,7 +363,7 @@ export const projects = [
         date: 'Dec 2022 - Feb 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.jpg?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular'],
         category: 'frontend',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-mobile-lecture',
@@ -375,7 +375,7 @@ export const projects = [
         date: 'June 2022 - Aug 2022',
         description:
             'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/masail.jpg?raw=true',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/masail.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Meilisearch'],
         category: 'frontend',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-mobile-masail',
