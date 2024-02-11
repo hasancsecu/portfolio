@@ -182,8 +182,8 @@ export const experiences = [
         role: 'Full Stack Developer Intern',
         company: 'TopOfStack Software Ltd.',
         date: 'Sept 2021 - Dec 2021',
-        desc: 'As a Full Stack Intern, I worked on both the MEAN and MEVN stacks. Crafting visually appealing user interfaces with HTML, CSS, and JavaScript, I seamlessly integrated front-end and back-end elements. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with technologies like MySQL, Express.js, and Node.js. This internship equipped me with a versatile skill set, laying the foundation for a successful career in technology.',
-        skills: [
+        desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
+   		skills: [
             'Node.js',
             'Express.js',
             'Angular',
