@@ -156,8 +156,8 @@ export const experiences = [
         role: 'Software Engineer',
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Present',
-        desc: "As a Full Stack Developer, I seamlessly integrated MySQL, PostgreSQL, MongoDB, Express.js, Angular, React.js, Next.js, and Node.js to create dynamic and visually appealing user interfaces. My role involved crafting responsive front-end elements with HTML, CSS, and JavaScript while implementing robust server-side logic. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in the MEAN and MERN stack technologies, I've gained a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
-        skills: [
+        desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, React.js, and Next.js to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
+  		skills : [
             'Node.js',
             'Express.js',
             'MySQL',
