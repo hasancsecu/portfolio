@@ -17,7 +17,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import ContrastIcon from '@mui/icons-material/Contrast';
+import LightModeIcon from '@mui/icons-material/LightMode';
 
 const Navbar = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
@@ -35,7 +35,15 @@ const Navbar = (props) => {
         <Nav>
             <NavbarContainer>
                 <NavLogo to="/">
-                    <span style={{ display: 'flex', alignItems: 'center', color: '#854CE6', marginBottom: '20;', cursor: 'pointer' }}>
+                    <span
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            color: '#854CE6',
+                            marginBottom: '20;',
+                            cursor: 'pointer',
+                        }}
+                    >
                         <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
                     </span>
                 </NavLogo>
@@ -58,9 +66,15 @@ const Navbar = (props) => {
                     <GitHubButton href={Bio.github} target="_blank">
                         Github Profile
                     </GitHubButton>
-                    {darkIcon && <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />}
+                    {darkIcon && (
+                        <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />
+                    )}
                     {!darkIcon && (
-                        <ContrastIcon color="primary" style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeLightTheme} />
+                        <LightModeIcon
+                            color="primary"
+                            style={{ marginLeft: '10px', cursor: 'pointer' }}
+                            onClick={changeLightTheme}
+                        />
                     )}
                 </ButtonContainer>
                 {isOpen && (
@@ -114,14 +128,19 @@ const Navbar = (props) => {
                             Contact
                         </MobileLink>
                         <GitHubButton
-                            style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }}
+                            style={{
+                                padding: '10px 16px',
+                                background: `${theme.primary}`,
+                                color: 'white',
+                                width: 'max-content',
+                            }}
                             href={Bio.github}
                             target="_blank"
                         >
                             Github Profile
                         </GitHubButton>
                         {darkIcon && <DarkModeIcon onClick={changeDarkTheme} />}
-                        {!darkIcon && <ContrastIcon color="primary" onClick={changeLightTheme} />}
+                        {!darkIcon && <LightModeIcon color="primary" onClick={changeLightTheme} />}
                     </MobileMenu>
                 )}
             </NavbarContainer>
