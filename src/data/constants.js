@@ -2,7 +2,7 @@ export const Bio = {
     name: 'Muhammad Hasan',
     roles: ['Full Stack Web Developer', 'Programmer'],
     description:
-        "I'm a software engineer currently working at TopOfStack Software Ltd. I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "I'm a software engineer currently working at <a href='https://topofstacksoftware.com/' target='_blank'>TopOfStack Software Ltd.</a> I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: 'https://github.com/hasancsecu',
     resume: 'https://drive.google.com/file/d/1fn39xwQyH77SsIF8hPbl6CFnQ9wEs1TU/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
@@ -157,7 +157,7 @@ export const experiences = [
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Present',
         desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, React.js, and Next.js to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
-  		skills : [
+        skills: [
             'Node.js',
             'Express.js',
             'MySQL',
@@ -183,7 +183,7 @@ export const experiences = [
         company: 'TopOfStack Software Ltd.',
         date: 'Sept 2021 - Dec 2021',
         desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
-   		skills: [
+        skills: [
             'Node.js',
             'Express.js',
             'Angular',
@@ -238,7 +238,16 @@ export const projects = [
         description:
             'A website where you can find the Quran, Hadith, Prayer time, Dua, Masail, Article, Lecture, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end), integrating payment with bKash, Nagad, and AmarPay (front-end and back-end), developing and improving the API (back-end)',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Payment Gateway', 'Meilisearch', 'JWT Authentication'],
+        tags: [
+            'Node.Js',
+            'Express.Js',
+            'MySQL',
+            'PostgressSQL',
+            'Angular',
+            'Payment Gateway',
+            'Meilisearch',
+            'JWT Authentication',
+        ],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-web',
         webapp: 'https://muslimbangla.com/',
@@ -264,7 +273,17 @@ export const projects = [
         description:
             'An admin panel for Muslim Bangla app and website with which all the data of the app are managed. Developed Using Node, Express, MySQL, JWT Authentication, Redis, Nodemailer, and Angular. Responsible for adding many features and improving previous ones (front-end and back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla-admin.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'Nodemailer', 'Meilisearch', 'JWT Authentication'],
+        tags: [
+            'Node.Js',
+            'Express.Js',
+            'MySQL',
+            'PostgressSQL',
+            'Angular',
+            'Redis',
+            'Nodemailer',
+            'Meilisearch',
+            'JWT Authentication',
+        ],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-admin',
         webapp: 'https://api.topofstacksoftware.com/muslimbangla-admin',
