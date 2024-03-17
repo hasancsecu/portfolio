@@ -40,7 +40,7 @@ const Navbar = (props) => {
                             display: 'flex',
                             alignItems: 'center',
                             color: '#854CE6',
-                            marginBottom: '20;',
+                            marginBottom: '20',
                             cursor: 'pointer',
                         }}
                     >
@@ -66,15 +66,9 @@ const Navbar = (props) => {
                     <GitHubButton href={Bio.github} target="_blank">
                         Github Profile
                     </GitHubButton>
-                    {darkIcon && (
-                        <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />
-                    )}
+                    {darkIcon && <DarkModeIcon style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeDarkTheme} />}
                     {!darkIcon && (
-                        <LightModeIcon
-                            color="primary"
-                            style={{ marginLeft: '10px', cursor: 'pointer' }}
-                            onClick={changeLightTheme}
-                        />
+                        <LightModeIcon color="primary" style={{ marginLeft: '10px', cursor: 'pointer' }} onClick={changeLightTheme} />
                     )}
                 </ButtonContainer>
                 {isOpen && (
@@ -134,13 +128,31 @@ const Navbar = (props) => {
                                 color: 'white',
                                 width: 'max-content',
                             }}
+                            onClick={() => {
+                                setIsOpen(!isOpen);
+                            }}
                             href={Bio.github}
                             target="_blank"
                         >
                             Github Profile
                         </GitHubButton>
-                        {darkIcon && <DarkModeIcon onClick={changeDarkTheme} />}
-                        {!darkIcon && <LightModeIcon color="primary" onClick={changeLightTheme} />}
+                        {darkIcon && (
+                            <DarkModeIcon
+                                onClick={() => {
+                                    changeDarkTheme();
+                                    setIsOpen(!isOpen);
+                                }}
+                            />
+                        )}
+                        {!darkIcon && (
+                            <LightModeIcon
+                                color="primary"
+                                onClick={() => {
+                                    changeLightTheme();
+                                    setIsOpen(!isOpen);
+                                }}
+                            />
+                        )}
                     </MobileMenu>
                 )}
             </NavbarContainer>

@@ -156,7 +156,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: 'https://media.licdn.com/dms/image/C560BAQExatdOJ-A4jQ/company-logo_200_200/0/1631318670927?e=1718236800&v=beta&t=LwMr336O27eZbBMlIEnoqgGZpXqARFx9229aPu4qzA0',
+        img: 'https://media.licdn.com/dms/image/C560BAQExatdOJ-A4jQ/company-logo_200_200/0/1631318670927?e=1718841600&v=beta&t=sFZZicZpQ6x2k2cwZhXmZJLbILouzmkHnEjPBI3vZfY',
         role: 'Software Engineer',
         company: 'Dohatec New Media',
         date: 'Apr 2024 - Present',
@@ -211,7 +211,7 @@ export const experiences = [
         img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
         role: 'Full Stack Developer Intern',
         company: 'TopOfStack Software Ltd.',
-        date: 'Sept 2021 - Dec 2021',
+        date: 'Sep 2021 - Dec 2021',
         desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
         skills: [
             'Node.js',
@@ -230,7 +230,7 @@ export const experiences = [
     },
 ];
 
-export const education = [
+export const educations = [
     {
         id: 0,
         img: 'https://cu.ac.bd/assets/image/culogolightblue.png',
@@ -275,7 +275,7 @@ export const projects = [
         member: [
             {
                 name: 'Muhammad Hasan',
-                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                img: 'https://lh3.googleusercontent.com/a/ACg8ocIZc-OatGBGBJ69ozEMPAB7gyIkqDS47Q9Qk9GBO-I1y2M=s389-c-no',
                 linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
                 github: 'https://github.com/hasancsecu/',
             },
@@ -301,7 +301,7 @@ export const projects = [
         member: [
             {
                 name: 'Muhammad Hasan',
-                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                img: 'https://lh3.googleusercontent.com/a/ACg8ocIZc-OatGBGBJ69ozEMPAB7gyIkqDS47Q9Qk9GBO-I1y2M=s389-c-no',
                 linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
                 github: 'https://github.com/hasancsecu/',
             },
@@ -351,7 +351,7 @@ export const projects = [
         member: [
             {
                 name: 'Muhammad Hasan',
-                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                img: 'https://lh3.googleusercontent.com/a/ACg8ocIZc-OatGBGBJ69ozEMPAB7gyIkqDS47Q9Qk9GBO-I1y2M=s389-c-no',
                 linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
                 github: 'https://github.com/hasancsecu/',
             },
@@ -425,7 +425,7 @@ export const projects = [
         member: [
             {
                 name: 'Muhammad Hasan',
-                img: 'https://avatars.githubusercontent.com/u/51505884?v=4',
+                img: 'https://lh3.googleusercontent.com/a/ACg8ocIZc-OatGBGBJ69ozEMPAB7gyIkqDS47Q9Qk9GBO-I1y2M=s389-c-no',
                 linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
                 github: 'https://github.com/hasancsecu/',
             },
