@@ -237,8 +237,8 @@ export const educations = [
         school: 'University of Chittagong',
         date: 'Jan 2017 - Dec 2021',
         grade: 'CGPA 3.21 / 4.00',
-        desc: 'Obtained B.Sc. in Computer Science and Engineering (CSE) degree from University of Chittagong',
-        degree: 'Bachelor of Science (Engineering), Computer Science and Engineering.',
+        desc: 'Completed B.Sc. (Engineering) in Computer Science and Engineering (CSE) from University of Chittagong.',
+        degree: 'B.Sc. (Engineering) in CSE',
     },
     {
         id: 1,
@@ -246,7 +246,7 @@ export const educations = [
         school: 'Darsana Govt. College',
         date: 'June 2014 - Apr 2016',
         grade: '4.92 / 5.00',
-        desc: 'I completed my class 12 education in Science from Darsana Govt. College, Darsana, Chuadanga.',
+        desc: 'Completed class 12 education in Science from Darsana Govt. College, Darsana, Chuadanga.',
         degree: 'HSC (Science)',
     },
     {
@@ -255,7 +255,7 @@ export const educations = [
         school: "Carew's High School",
         date: 'Jan 2009 - Feb 2014',
         grade: '5.00 / 5.00',
-        desc: "I completed my class 10 education in Science from Carew's High School, Darsana, Chuadanga.",
+        desc: "Completed class 10 education in Science from Carew's High School, Darsana, Chuadanga.",
         degree: 'SSC (Science)',
     },
 ];
