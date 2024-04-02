@@ -19,6 +19,10 @@ export const skills = [
                 image: 'https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667',
             },
             {
+                name: 'NgRx',
+                image: 'https://ngrx.io/assets/images/badge.svg',
+            },
+            {
                 name: 'React.Js',
                 image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K',
             },
@@ -160,14 +164,13 @@ export const experiences = [
         role: 'Software Engineer',
         company: 'Dohatec New Media',
         date: 'Apr 2024 - Present',
-        desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, etc. to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
+        // desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, etc. to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
         skills: [
             'Node.js',
             'Express.js',
             'Nest.js',
             'MySQL',
             'PostgreSQL',
-            'MongoDB',
             'Angular',
             'Material UI',
             'HTML',
@@ -185,7 +188,7 @@ export const experiences = [
         role: 'Software Engineer',
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Mar 2024',
-        desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, React.js, and Next.js to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
+        // desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, React.js, and Next.js to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
         skills: [
             'Node.js',
             'Express.js',
@@ -212,7 +215,7 @@ export const experiences = [
         role: 'Full Stack Developer Intern',
         company: 'TopOfStack Software Ltd.',
         date: 'Sep 2021 - Dec 2021',
-        desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
+        // desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
         skills: [
             'Node.js',
             'Express.js',
