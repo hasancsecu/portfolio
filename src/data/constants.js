@@ -4,7 +4,7 @@ export const Bio = {
     description:
         "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a> I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: 'https://github.com/hasancsecu',
-    resume: 'https://drive.google.com/file/d/1Dzny4sEBD2jmqSCqD2fiqlXLqUfftvdU/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1aNV_vb_PuD2Me4rXnfsiTTCq9mWOwur9/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/muhammad-hasan-6a3469195/',
     facebook: 'https://web.facebook.com/profile.php?id=100093932103965',
     skype: 'https://join.skype.com/invite/AdNqwqRL2xbt',
