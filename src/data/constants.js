@@ -55,16 +55,20 @@ export const skills = [
                 image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201',
             },
             {
+                name: 'Material UI',
+                image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDM2IDMyIj4KICA8cGF0aAogICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgY2xpcC1ydWxlPSJldmVub2RkIgogICAgZD0iTTMwLjM0MyAyMS45NzZhMSAxIDAgMDAuNTAyLS44NjRsLjAxOC01Ljc4N2ExIDEgMCAwMS41MDItLjg2NGwzLjEzNy0xLjgwMmExIDEgMCAwMTEuNDk4Ljg2N3YxMC41MjFhMSAxIDAgMDEtLjUwMi44NjdsLTExLjgzOSA2LjhhMSAxIDAgMDEtLjk5NC4wMDFsLTkuMjkxLTUuMzE0YTEgMSAwIDAxLS41MDQtLjg2OHYtNS4zMDVjMC0uMDA2LjAwNy0uMDEuMDEzLS4wMDcuMDA1LjAwMy4wMTIgMCAuMDEyLS4wMDd2LS4wMDZjMC0uMDA0LjAwMi0uMDA4LjAwNi0uMDFsNy42NTItNC4zOTZjLjAwNy0uMDA0LjAwNC0uMDE1LS4wMDQtLjAxNWEuMDA4LjAwOCAwIDAxLS4wMDgtLjAwOGwuMDE1LTUuMjAxYTEgMSAwIDAwLTEuNS0uODdsLTUuNjg3IDMuMjc3YTEgMSAwIDAxLS45OTggMEw2LjY2NiA5LjdhMSAxIDAgMDAtMS40OTkuODY2djkuNGExIDEgMCAwMS0xLjQ5Ni44NjlsLTMuMTY2LTEuODFhMSAxIDAgMDEtLjUwNC0uODdsLjAyOC0xNi40M0ExIDEgMCAwMTEuNTI3Ljg2bDEwLjg0NSA2LjIyOWExIDEgMCAwMC45OTYgMEwyNC4yMS44NmExIDEgMCAwMTEuNDk4Ljg2OHYxNi40MzRhMSAxIDAgMDEtLjUwMS44NjdsLTUuNjc4IDMuMjdhMSAxIDAgMDAuMDA0IDEuNzM1bDMuMTMyIDEuNzgzYTEgMSAwIDAwLjk5My0uMDAybDYuNjg1LTMuODM5ek0zMSA3LjIzNGExIDEgMCAwMDEuNTE0Ljg1N2wzLTEuOEExIDEgMCAwMDM2IDUuNDM0VjEuNzY2QTEgMSAwIDAwMzQuNDg2LjkxbC0zIDEuOGExIDEgMCAwMC0uNDg2Ljg1N3YzLjY2OHoiCiAgICBmaWxsPSIjMDA3RkZGIgogIC8+Cjwvc3ZnPgo=',
+            },
+            {
+                name: 'Primeng',
+                image: 'https://www.primefaces.org/store/javax.faces.resource/store/image/primeng.svg.xhtml',
+            },
+            {
                 name: 'Bootstrap',
                 image: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
             },
             {
                 name: 'Tailwind CSS',
                 image: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
-            },
-            {
-                name: 'Material UI',
-                image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDM2IDMyIj4KICA8cGF0aAogICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgY2xpcC1ydWxlPSJldmVub2RkIgogICAgZD0iTTMwLjM0MyAyMS45NzZhMSAxIDAgMDAuNTAyLS44NjRsLjAxOC01Ljc4N2ExIDEgMCAwMS41MDItLjg2NGwzLjEzNy0xLjgwMmExIDEgMCAwMTEuNDk4Ljg2N3YxMC41MjFhMSAxIDAgMDEtLjUwMi44NjdsLTExLjgzOSA2LjhhMSAxIDAgMDEtLjk5NC4wMDFsLTkuMjkxLTUuMzE0YTEgMSAwIDAxLS41MDQtLjg2OHYtNS4zMDVjMC0uMDA2LjAwNy0uMDEuMDEzLS4wMDcuMDA1LjAwMy4wMTIgMCAuMDEyLS4wMDd2LS4wMDZjMC0uMDA0LjAwMi0uMDA4LjAwNi0uMDFsNy42NTItNC4zOTZjLjAwNy0uMDA0LjAwNC0uMDE1LS4wMDQtLjAxNWEuMDA4LjAwOCAwIDAxLS4wMDgtLjAwOGwuMDE1LTUuMjAxYTEgMSAwIDAwLTEuNS0uODdsLTUuNjg3IDMuMjc3YTEgMSAwIDAxLS45OTggMEw2LjY2NiA5LjdhMSAxIDAgMDAtMS40OTkuODY2djkuNGExIDEgMCAwMS0xLjQ5Ni44NjlsLTMuMTY2LTEuODFhMSAxIDAgMDEtLjUwNC0uODdsLjAyOC0xNi40M0ExIDEgMCAwMTEuNTI3Ljg2bDEwLjg0NSA2LjIyOWExIDEgMCAwMC45OTYgMEwyNC4yMS44NmExIDEgMCAwMTEuNDk4Ljg2OHYxNi40MzRhMSAxIDAgMDEtLjUwMS44NjdsLTUuNjc4IDMuMjdhMSAxIDAgMDAuMDA0IDEuNzM1bDMuMTMyIDEuNzgzYTEgMSAwIDAwLjk5My0uMDAybDYuNjg1LTMuODM5ek0zMSA3LjIzNGExIDEgMCAwMDEuNTE0Ljg1N2wzLTEuOEExIDEgMCAwMDM2IDUuNDM0VjEuNzY2QTEgMSAwIDAwMzQuNDg2LjkxbC0zIDEuOGExIDEgMCAwMC0uNDg2Ljg1N3YzLjY2OHoiCiAgICBmaWxsPSIjMDA3RkZGIgogIC8+Cjwvc3ZnPgo=',
             },
         ],
     },
@@ -81,7 +85,7 @@ export const skills = [
             },
             {
                 name: 'Nest.js',
-                image: 'https://nestjs.com/logo-small.ede75a6b.svg',
+                image: 'https://nestjs.com/logo-small-gradient.76616405.svg',
             },
             {
                 name: 'GraphQL',
@@ -105,31 +109,31 @@ export const skills = [
             },
         ],
     },
-    // {
-    //     title: 'DevOps',
-    //     skills: [
-    //         {
-    //             name: 'AWS',
-    //             image: 'https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png',
-    //         },
-    //         {
-    //             name: 'Google Cloud',
-    //             image: 'https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png',
-    //         },
-    //         {
-    //             name: 'Docker',
-    //             image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
-    //         },
-    //         {
-    //             name: 'Jenkins',
-    //             image: 'https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png',
-    //         },
-    //         {
-    //             name: 'Kubernetes',
-    //             image: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png',
-    //         },
-    //     ],
-    // },
+    {
+        title: 'DevOps',
+        skills: [
+            {
+                name: 'AWS',
+                image: 'https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png',
+            },
+            {
+                name: 'Google Cloud',
+                image: 'https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png',
+            },
+            {
+                name: 'Docker',
+                image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
+            },
+            {
+                name: 'Jenkins',
+                image: 'https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png',
+            },
+            {
+                name: 'Kubernetes',
+                image: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png',
+            },
+        ],
+    },
     {
         title: 'Others',
         skills: [
@@ -161,34 +165,17 @@ export const experiences = [
     {
         id: 0,
         img: 'https://media.licdn.com/dms/image/C560BAQExatdOJ-A4jQ/company-logo_200_200/0/1631318670927?e=1718841600&v=beta&t=sFZZicZpQ6x2k2cwZhXmZJLbILouzmkHnEjPBI3vZfY',
-        role: 'Software Engineer',
+        role: 'Software Engineer (Frontend)',
         company: 'Dohatec New Media',
         date: 'Apr 2024 - Present',
-        // desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, etc. to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
-        skills: [
-            'Node.js',
-            'Express.js',
-            'Nest.js',
-            'MySQL',
-            'PostgreSQL',
-            'Angular',
-            'Material UI',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'TypeScript',
-            'Git',
-            'Gitlab',
-            'Postman',
-        ],
+        skills: ['Angular', 'Material UI', 'Primeng', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Docker', 'Git', 'Gitlab', 'Postman'],
     },
     {
         id: 1,
         img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
-        role: 'Software Engineer',
+        role: 'Software Engineer (Fullstack)',
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Mar 2024',
-        // desc: "As a Full Stack Developer, I seamlessly integrated Node.js, Express.js, MySQL, PostgreSQL, MongoDB, Angular, React.js, and Next.js to construct dynamic and visually appealing user interfaces. My role involved implementing robust server-side logic with Node.js and Express.js, and effectively managing databases such as MySQL, PostgreSQL, and MongoDB. Actively participating in agile development, I contributed to debugging, testing, and troubleshooting processes. With hands-on experience in these technologies, I've cultivated a comprehensive skill set, positioning myself for success in the dynamic field of technology.",
         skills: [
             'Node.js',
             'Express.js',
@@ -215,21 +202,7 @@ export const experiences = [
         role: 'Full Stack Developer Intern',
         company: 'TopOfStack Software Ltd.',
         date: 'Sep 2021 - Dec 2021',
-        // desc: 'As a Full Stack Intern, I specialized in front-end development using Angular and Vue, creating visually appealing user interfaces with JavaScript. On the backend, I seamlessly integrated Node.js, Express.js, and MySQL to implement robust server-side logic. In agile environments, I actively contributed to debugging, testing, and troubleshooting processes, gaining hands-on experience with the MEAN and MEVN stacks. This internship has honed my skills in Angular, Vue, Node.js, Express.js, and MySQL, setting the stage for a promising career in technology.',
-        skills: [
-            'Node.js',
-            'Express.js',
-            'Angular',
-            'Vue.js',
-            'Material UI',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'TypeScript',
-            'Git',
-            'Gitlab',
-            'Postman',
-        ],
+        skills: ['Node.js', 'Express.js', 'Angular', 'Vue.js', 'Material UI', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Git', 'Gitlab', 'Postman'],
     },
 ];
 
@@ -284,7 +257,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -310,7 +283,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -344,8 +317,7 @@ export const projects = [
         id: 4,
         title: 'United Garments Manufacturing',
         date: 'Feb 2022 - Oct 2022',
-        description:
-            'A Web App to manage garment products and orders. Developed Using Node, Express, MongoDB, and Angular. Responsible for designing the website.',
+        description: 'A Web App to manage garment products and orders. Developed Using Node, Express, MongoDB, and Angular. Responsible for designing the website.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ugm.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MongoDB', 'Angular', 'JWT Authentication', 'Wordpress'],
         category: 'frontend',
@@ -360,7 +332,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -382,8 +354,7 @@ export const projects = [
         id: 6,
         title: 'Article Webview',
         date: 'Sept 2022 - Nov 2022',
-        description:
-            'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
+        description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/article.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Meilisearch'],
         category: 'frontend',
@@ -394,8 +365,7 @@ export const projects = [
         id: 7,
         title: 'Lecture Webview',
         date: 'Dec 2022 - Feb 2022',
-        description:
-            'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
+        description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular'],
         category: 'frontend',
@@ -406,8 +376,7 @@ export const projects = [
         id: 8,
         title: 'Masail Webview',
         date: 'June 2022 - Aug 2022',
-        description:
-            'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
+        description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/masail.png?raw=true',
         tags: ['Node.Js', 'Express.Js', 'MySQL', 'Angular', 'Meilisearch'],
         category: 'frontend',
@@ -434,7 +403,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_400_400/0/1578286065260?e=1712793600&v=beta&t=17mDCXofezvIJv7M22PmhCzLmUB2n_CyLwMNBlkiPDE',
+                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -444,8 +413,7 @@ export const projects = [
         id: 10,
         title: 'Ecommerce',
         date: 'Jan 2020 - June 2020',
-        description:
-            'A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).',
+        description: 'A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/ecommerce.png?raw=true',
         tags: ['php', 'Laravel', 'MySQL', 'Authentication', 'post mail'],
         category: 'fullstack',
