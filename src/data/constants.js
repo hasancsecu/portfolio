@@ -239,6 +239,17 @@ export const educations = [
 export const projects = [
     {
         id: 0,
+        title: 'PQCAL (OMS)',
+        date: 'Apr 2024 - Present',
+        description: 'An advanced online trading platform offering seamless order management, real-time analytics, and multi-asset support for optimized trading performance.',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/pqcal.png?raw=true',
+        tags: ['Angular', 'Primeng', 'Spring boot', 'Microsoft SQL Server', 'Microservice', 'Docker'],
+        category: 'frontend',
+        github: 'https://repo.dohatec.com.bd/DohaSecuritiesOMS/web-ui',
+        webapp: 'http://192.168.3.38/',
+    },
+    {
+        id: 1,
         title: 'Muslim Bangla',
         date: 'Sept 2021 - Feb 2024',
         description:
@@ -264,7 +275,7 @@ export const projects = [
         ],
     },
     {
-        id: 1,
+        id: 2,
         title: 'Muslimbangla Admin',
         date: 'Sept 2021 - Feb 2024',
         description:
@@ -290,7 +301,7 @@ export const projects = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         title: 'Quiz App',
         date: 'Feb 2023 - Oct 2023',
         description:
@@ -302,7 +313,7 @@ export const projects = [
         webapp: 'https://play.google.com/store/apps/details?id=com.tos.namajtime',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Muslim Dawah',
         date: 'Jan 2023 - Oct 2023',
         description:
@@ -314,7 +325,7 @@ export const projects = [
         webapp: 'https://muslimdawah.org/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'United Garments Manufacturing',
         date: 'Feb 2022 - Oct 2022',
         description: 'A Web App to manage garment products and orders. Developed Using Node, Express, MongoDB, and Angular. Responsible for designing the website.',
@@ -339,7 +350,7 @@ export const projects = [
         ],
     },
     {
-        id: 5,
+        id: 6,
         title: 'Hadith Webview',
         date: 'Jan 2022 - June 2022',
         description:
@@ -351,7 +362,7 @@ export const projects = [
         webapp: 'https://hadith.muslimbangla.com/?theme=dark',
     },
     {
-        id: 6,
+        id: 7,
         title: 'Article Webview',
         date: 'Sept 2022 - Nov 2022',
         description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
@@ -362,7 +373,7 @@ export const projects = [
         webapp: 'https://article.muslimbangla.com/',
     },
     {
-        id: 7,
+        id: 8,
         title: 'Lecture Webview',
         date: 'Dec 2022 - Feb 2022',
         description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.',
@@ -373,7 +384,7 @@ export const projects = [
         webapp: 'https://lecture.muslimbangla.com/',
     },
     {
-        id: 8,
+        id: 9,
         title: 'Masail Webview',
         date: 'June 2022 - Aug 2022',
         description: 'A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.',
@@ -384,7 +395,7 @@ export const projects = [
         webapp: 'https://masail.muslimbangla.com/',
     },
     {
-        id: 9,
+        id: 10,
         title: 'Muslim Dawah Admin',
         date: 'Jan 2023 - Oct 2023',
         description:
@@ -410,7 +421,7 @@ export const projects = [
         ],
     },
     {
-        id: 10,
+        id: 11,
         title: 'Ecommerce',
         date: 'Jan 2020 - June 2020',
         description: 'A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).',
@@ -420,16 +431,16 @@ export const projects = [
         github: 'https://github.com/hasancsecu/ecommerce',
         webapp: 'https://github.com/hasancsecu/ecommerce',
     },
-    {
-        id: 11,
-        title: 'Tour Management',
-        date: 'Oct 2020 - May 2021',
-        description:
-            'A web app to manage tours. Developed Using Node.js, Express.js, MongoDB, Nodemailer, Pug, JWT Authentication. Responsible for designing the website (front-end) and developing the API (back-end).',
-        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/tour-management.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MongoDB', 'Pug', 'Redis', 'JWT Authentication', 'Nodemailer'],
-        category: 'fullstack',
-        github: 'https://github.com/hasancsecu/find_tours',
-        webapp: 'https://github.com/hasancsecu/find_tours',
-    },
+    // {
+    //     id: 11,
+    //     title: 'Tour Management',
+    //     date: 'Oct 2020 - May 2021',
+    //     description:
+    //         'A web app to manage tours. Developed Using Node.js, Express.js, MongoDB, Nodemailer, Pug, JWT Authentication. Responsible for designing the website (front-end) and developing the API (back-end).',
+    //     image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/tour-management.png?raw=true',
+    //     tags: ['Node.Js', 'Express.Js', 'MongoDB', 'Pug', 'Redis', 'JWT Authentication', 'Nodemailer'],
+    //     category: 'fullstack',
+    //     github: 'https://github.com/hasancsecu/find_tours',
+    //     webapp: 'https://github.com/hasancsecu/find_tours',
+    // },
 ];
