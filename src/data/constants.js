@@ -16,7 +16,7 @@ export const skills = [
         skills: [
             {
                 name: 'Angular',
-                image: 'https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667',
+                image: 'https://avatars.githubusercontent.com/u/139426?s=48&v=4',
             },
             {
                 name: 'NgRx',
@@ -92,12 +92,16 @@ export const skills = [
                 image: 'https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg',
             },
             {
+                name: 'ASP.NET',
+                image: 'https://www.ispirer.net/images/asp.net.logo.png',
+            },
+            {
                 name: 'MySQL',
                 image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
             },
             {
-                name: 'Postgresql',
-                image: 'https://www.postgresql.org/media/img/about/press/elephant.png',
+                name: 'PostgreSQL',
+                image: 'https://www.postgreSQL.org/media/img/about/press/elephant.png',
             },
             {
                 name: 'MongoDB',
@@ -165,15 +169,15 @@ export const experiences = [
     {
         id: 0,
         img: 'https://media.licdn.com/dms/image/C560BAQExatdOJ-A4jQ/company-logo_100_100/0/1631318670927?e=1727308800&v=beta&t=Kc1ffbz5WUL9ScCdLaMUX-M-S5gzNgkjvE3zcW4E_HQ',
-        role: 'Software Engineer (Frontend)',
+        role: 'Software Engineer',
         company: 'Dohatec New Media',
         date: 'Apr 2024 - Present',
-        skills: ['Angular', 'Material UI', 'Primeng', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Docker', 'Git', 'Gitlab', 'Postman'],
+        skills: ['ASP.NET', 'C#', 'Angular', 'Material UI', 'Primeng', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Docker', 'Git', 'Gitlab', 'Postman'],
     },
     {
         id: 1,
         img: 'https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png',
-        role: 'Software Engineer (Fullstack)',
+        role: 'Software Engineer',
         company: 'TopOfStack Software Ltd.',
         date: 'Jan 2022 - Mar 2024',
         skills: [
@@ -255,7 +259,7 @@ export const projects = [
         description:
             'A website where you can find the Quran, Hadith, Prayer time, Dua, Masail, Article, Lecture, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end), integrating payment with bKash, Nagad, and AmarPay (front-end and back-end), developing and improving the API (back-end)',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Payment Gateway', 'Meilisearch', 'JWT Authentication'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgreSQL', 'Angular', 'Payment Gateway', 'Meilisearch', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-web',
         webapp: 'https://muslimbangla.com/',
@@ -268,7 +272,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
+                img: 'https://media.licdn.com/dms/image/v2/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1578286065224?e=1730332800&v=beta&t=gt8eVR4_YFaVmY5vUZQhuBKCDKDbQMszkPJw2PEn3GM',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -281,7 +285,7 @@ export const projects = [
         description:
             'An admin panel for Muslim Bangla app and website with which all the data of the app are managed. Developed Using Node, Express, MySQL, JWT Authentication, Redis, Nodemailer, and Angular. Responsible for adding many features and improving previous ones (front-end and back-end).',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla-admin.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'Nodemailer', 'Meilisearch', 'JWT Authentication'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgreSQL', 'Angular', 'Redis', 'Nodemailer', 'Meilisearch', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/muslimbangla-admin',
         webapp: 'https://api.topofstacksoftware.com/muslimbangla-admin',
@@ -294,7 +298,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
+                img: 'https://media.licdn.com/dms/image/v2/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1578286065224?e=1730332800&v=beta&t=gt8eVR4_YFaVmY5vUZQhuBKCDKDbQMszkPJw2PEn3GM',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -307,7 +311,7 @@ export const projects = [
         description:
             'A web app developed for MuslimBangla Android and MuslimBangla iOS app where users can participate in daily quizzes, show their positions on the leaderboard, and also contribute questions to the quiz. Developed Using Node, Express, MySQL,  JWT Authentication, Redis, and Angular. Responsible for designing the web app (front-end) and developing the API (back-end). See the “Quiz" section on the app',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.png?raw=true',
-        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgressSQL', 'Angular', 'Redis', 'JWT Authentication'],
+        tags: ['Node.Js', 'Express.Js', 'MySQL', 'PostgreSQL', 'Angular', 'Redis', 'JWT Authentication'],
         category: 'fullstack',
         github: 'https://gitlab.com/imtiaztos/tos-quiz',
         webapp: 'https://play.google.com/store/apps/details?id=com.tos.namajtime',
@@ -343,7 +347,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
+                img: 'https://media.licdn.com/dms/image/v2/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1578286065224?e=1730332800&v=beta&t=gt8eVR4_YFaVmY5vUZQhuBKCDKDbQMszkPJw2PEn3GM',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
@@ -414,7 +418,7 @@ export const projects = [
             },
             {
                 name: 'Sidratul Islam',
-                img: 'https://media.licdn.com/dms/image/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/0/1578286065224?e=1723075200&v=beta&t=Q987ozavrjihXFEeHXqN5c4Wdt4SmZP6iEOLaZXb8v8',
+                img: 'https://media.licdn.com/dms/image/v2/C5103AQEhQRvrQOemZQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1578286065224?e=1730332800&v=beta&t=gt8eVR4_YFaVmY5vUZQhuBKCDKDbQMszkPJw2PEn3GM',
                 linkedin: 'https://www.linkedin.com/in/sidratul-islam',
                 github: 'https://github.com/SidratulIslam',
             },
