@@ -2,7 +2,7 @@ export const Bio = {
     name: 'Muhammad Hasan',
     roles: ['Full Stack Web Developer', 'Programmer'],
     description:
-        "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a> I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+        "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a>. I have a great interest in Frontend and Backend web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: 'https://github.com/hasancsecu',
     resume: 'https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link',
     linkedin: 'https://www.linkedin.com/in/abu-tamanna-hasan-6a3469195/',
@@ -92,7 +92,7 @@ export const skills = [
                 image: 'https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg',
             },
             {
-                name: 'ASP.NET',
+                name: 'Asp.Net',
                 image: 'https://www.ispirer.net/images/asp.net.logo.png',
             },
             {
@@ -172,7 +172,7 @@ export const experiences = [
         role: 'Software Engineer',
         company: 'Dohatec New Media',
         date: 'Apr 2024 - Present',
-        skills: ['ASP.NET', 'C#', 'Angular', 'Material UI', 'Primeng', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Docker', 'Git', 'Gitlab', 'Postman'],
+        skills: ['Asp.Net', 'C#', 'Angular', 'Material UI', 'Primeng', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Docker', 'Git', 'Gitlab', 'Postman'],
     },
     {
         id: 1,
@@ -247,7 +247,7 @@ export const projects = [
         date: 'Apr 2024 - Present',
         description: 'An advanced online trading platform offering seamless order management, real-time analytics, and multi-asset support for optimized trading performance.',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/pqcal.png?raw=true',
-        tags: ['Angular', 'Primeng', 'Spring boot', 'Microsoft SQL Server', 'Microservice', 'Docker'],
+        tags: ['Angular', 'NgRx', 'Primeng', 'Spring boot', 'Microsoft SQL Server', 'Microservice', 'Docker'],
         category: 'frontend',
         github: 'https://repo.dohatec.com.bd/DohaSecuritiesOMS/web-ui',
         webapp: 'http://192.168.3.38/',
