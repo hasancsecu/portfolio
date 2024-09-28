@@ -198,7 +198,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQExatdOJ-A4jQ/company-logo_100_100/0/1631318670927?e=1727308800&v=beta&t=Kc1ffbz5WUL9ScCdLaMUX-M-S5gzNgkjvE3zcW4E_HQ",
+    img: "https://media.licdn.com/dms/image/v2/C560BAQExatdOJ-A4jQ/company-logo_200_200/company-logo_200_200/0/1631318670927?e=1735776000&v=beta&t=oK3z7MwtVDvF6gVXV57WP8zQa5b--eI2z_CAeMcj85I",
     role: "Software Engineer",
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
