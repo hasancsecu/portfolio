@@ -23,6 +23,14 @@ const Navbar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [darkIcon, setDarkIcon] = React.useState(false);
   const theme = useTheme();
+  const sectionIds = [
+    "#about",
+    "#skills",
+    "#experience",
+    "#projects",
+    "#education",
+    "#contact",
+  ];
   const changeDarkTheme = () => {
     setDarkIcon(false);
     props.changeTheme(darkIcon);
@@ -55,12 +63,11 @@ const Navbar = (props) => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          {sectionIds.map((link) => (
+            <NavLink key={link} href={link}>
+              {link.replace("#", "")}
+            </NavLink>
+          ))}
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
@@ -83,54 +90,17 @@ const Navbar = (props) => {
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <MobileLink
-              href="#about"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              About
-            </MobileLink>
-            <MobileLink
-              href="#skills"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Skills
-            </MobileLink>
-            <MobileLink
-              href="#experience"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Experience
-            </MobileLink>
-            <MobileLink
-              href="#projects"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Projects
-            </MobileLink>
-            <MobileLink
-              href="#education"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Education
-            </MobileLink>
-            <MobileLink
-              href="#contact"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Contact
-            </MobileLink>
+            {sectionIds.map((link) => (
+              <MobileLink
+                key={link}
+                href={link}
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+              >
+                {link.replace("#", "")}
+              </MobileLink>
+            ))}
             <GitHubButton
               style={{
                 padding: "10px 16px",
