@@ -2,7 +2,7 @@ export const Bio = {
   name: "Abu Tamanna Hasan",
   roles: ["Full Stack Web Developer", "Programmer"],
   description:
-    "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a>. I have a great interest in web development and about 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a>. I have a great interest in web development and over 3 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/hasancsecu",
   resume:
     "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
