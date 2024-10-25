@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+import { Alert, Snackbar } from "@mui/material";
 
 const Container = styled.div`
   display: flex;
@@ -102,7 +102,7 @@ const ContactInputMessage = styled.textarea`
   }
 `;
 
-const ContactButton = styled.input`
+const ContactButton = styled.button`
   width: 100%;
   text-decoration: none;
   text-align: center;
@@ -132,12 +132,49 @@ const ContactButton = styled.input`
   cursor: pointer;
 `;
 
+const SendingButton = styled.a`
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  background: hsla(271, 100%, 50%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  padding: 13px 16px;
+  margin-top: 2px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: not-allowed;
+`;
+
 const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const [error, setError] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
   const form = useRef();
 
+  const handleClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+    setOpen(false);
+    setError(false);
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -155,6 +192,7 @@ const Contact = () => {
           form.current.reset();
         },
         (error) => {
+          setLoading(false);
           setError(true);
           console.log(error.text);
         }
@@ -184,23 +222,29 @@ const Contact = () => {
             name="message"
             required
           />
-          {!loading && <ContactButton type="submit" value="Send" />}
-          {loading && <ContactButton value="Sending..." />}
+          {!loading && <ContactButton type="submit">Send</ContactButton>}
+          {loading && <SendingButton>Sending...</SendingButton>}
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
-        <Snackbar
-          open={error}
-          autoHideDuration={6000}
-          onClose={() => setError(false)}
-          message="Email sending failed! Something went wrong!"
-          severity="success"
-        />
+        <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+          <Alert
+            onClose={handleClose}
+            severity="success"
+            variant="filled"
+            sx={{ width: "100%" }}
+          >
+            Email sent successfully!
+          </Alert>
+        </Snackbar>
+        <Snackbar open={error} autoHideDuration={6000} onClose={handleClose}>
+          <Alert
+            onClose={handleClose}
+            severity="error"
+            variant="filled"
+            sx={{ width: "100%" }}
+          >
+            Email sending failed! Something went wrong!
+          </Alert>
+        </Snackbar>
       </Wrapper>
     </Container>
   );
