@@ -106,7 +106,8 @@ export const skills = [
       },
       {
         name: "Asp.Net Core",
-        image: "https://icon.icepanel.io/Technology/svg/.NET-core.svg",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/768px-.NET_Core_Logo.svg.png?20210328084203",
       },
       {
         name: "MySQL",
