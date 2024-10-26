@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Bio } from "../../data/constants";
+import { Bio, sectionIds } from "../../data/constants";
 import { FaSkype } from "react-icons/fa";
 
 const FooterContainer = styled.div`
@@ -50,6 +50,7 @@ const NavLink = styled.a`
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
+  text-transform: capitalize;
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -87,12 +88,11 @@ function Footer() {
       <FooterWrapper>
         <Logo>Abu Tamanna Hasan</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          {sectionIds.map((link) => (
+            <NavLink key={link} href={link}>
+              {link.replace("#", "")}
+            </NavLink>
+          ))}
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">

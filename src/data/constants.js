@@ -11,6 +11,15 @@ export const Bio = {
   skype: "https://join.skype.com/invite/AdNqwqRL2xbt",
 };
 
+export const sectionIds = [
+  "#about",
+  "#skills",
+  "#experience",
+  "#projects",
+  "#education",
+  "#contact",
+];
+
 export const skills = [
   {
     title: "Frontend",

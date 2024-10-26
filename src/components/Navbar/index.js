@@ -14,7 +14,7 @@ import {
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
-import { Bio } from "../../data/constants";
+import { Bio, sectionIds } from "../../data/constants";
 import { useTheme } from "styled-components";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -23,14 +23,6 @@ const Navbar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [darkIcon, setDarkIcon] = React.useState(false);
   const theme = useTheme();
-  const sectionIds = [
-    "#about",
-    "#skills",
-    "#experience",
-    "#projects",
-    "#education",
-    "#contact",
-  ];
   const changeDarkTheme = () => {
     setDarkIcon(false);
     props.changeTheme(darkIcon);

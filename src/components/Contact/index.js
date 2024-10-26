@@ -209,15 +209,15 @@ const Contact = () => {
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput
-            placeholder="Your Email"
+            placeholder="Your Email *"
             name="from_email"
             type="email"
             required
           />
-          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Your Name *" name="from_name" required />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage
-            placeholder="Message"
+            placeholder="Message *"
             rows="4"
             name="message"
             required
