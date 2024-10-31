@@ -327,7 +327,7 @@ export const projects = [
     ],
     category: "frontend",
     github: "https://repo.dohatec.com.bd/DohaSecuritiesOMS/web-ui",
-    webapp: "http://192.168.3.38/",
+    webapp: "http://103.41.111.83/",
   },
   {
     id: 1,
