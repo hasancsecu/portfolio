@@ -63,7 +63,7 @@ export const NavLink = styled.a`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   text-transform: capitalize;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -86,7 +86,7 @@ export const GitHubButton = styled.a`
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: white;
   }
@@ -158,7 +158,7 @@ export const MobileMenuLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -182,7 +182,7 @@ export const MobileMenuButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
 
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
@@ -195,7 +195,7 @@ export const MobileLink = styled.a`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   text-transform: capitalize;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
