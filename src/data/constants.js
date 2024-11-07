@@ -92,12 +92,12 @@ export const skills = [
       {
         name: "PrimeNG",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeng.svg.xhtml?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeng.svg?raw=true",
       },
       {
         name: "PrimeFlex",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeflex.svg.xhtml?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeflex.svg?raw=true",
       },
     ],
   },
@@ -201,7 +201,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.png?raw=true",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true",
     role: "Software Engineer",
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
