@@ -47,7 +47,7 @@ export const skills = [
       {
         name: "Next",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.svg?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.png?raw=true",
       },
       {
         name: "Vue",
@@ -172,7 +172,7 @@ export const skills = [
       {
         name: "GitLab",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitkab.svg?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitlab.svg?raw=true",
       },
       {
         name: "Docker",
