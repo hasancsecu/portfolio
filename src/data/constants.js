@@ -26,70 +26,78 @@ export const skills = [
     skills: [
       {
         name: "Angular",
-        image: "https://avatars.githubusercontent.com/u/139426?s=48&v=4",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/angular.png?raw=true",
       },
       {
         name: "NgRx",
-        image: "https://ngrx.io/assets/images/badge.svg",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/ngrx.svg?raw=true",
       },
       {
-        name: "React.Js",
+        name: "React",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/react.svg?raw=true",
       },
       {
         name: "Redux",
         image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/redux.svg?raw=true",
       },
       {
-        name: "Next.Js",
+        name: "Next",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/angular.next?raw=true",
       },
       {
-        name: "Vue.Js",
+        name: "Vue",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/768px-Vue.js_Logo_2.svg.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/html.png?raw=true",
       },
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/css.png?raw=true",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/javascript.png?raw=true",
       },
       {
         name: "TypeScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png?20221110153201",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/typescript.png?raw=true",
       },
       {
         name: "Material UI",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDM2IDMyIj4KICA8cGF0aAogICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgY2xpcC1ydWxlPSJldmVub2RkIgogICAgZD0iTTMwLjM0MyAyMS45NzZhMSAxIDAgMDAuNTAyLS44NjRsLjAxOC01Ljc4N2ExIDEgMCAwMS41MDItLjg2NGwzLjEzNy0xLjgwMmExIDEgMCAwMTEuNDk4Ljg2N3YxMC41MjFhMSAxIDAgMDEtLjUwMi44NjdsLTExLjgzOSA2LjhhMSAxIDAgMDEtLjk5NC4wMDFsLTkuMjkxLTUuMzE0YTEgMSAwIDAxLS41MDQtLjg2OHYtNS4zMDVjMC0uMDA2LjAwNy0uMDEuMDEzLS4wMDcuMDA1LjAwMy4wMTIgMCAuMDEyLS4wMDd2LS4wMDZjMC0uMDA0LjAwMi0uMDA4LjAwNi0uMDFsNy42NTItNC4zOTZjLjAwNy0uMDA0LjAwNC0uMDE1LS4wMDQtLjAxNWEuMDA4LjAwOCAwIDAxLS4wMDgtLjAwOGwuMDE1LTUuMjAxYTEgMSAwIDAwLTEuNS0uODdsLTUuNjg3IDMuMjc3YTEgMSAwIDAxLS45OTggMEw2LjY2NiA5LjdhMSAxIDAgMDAtMS40OTkuODY2djkuNGExIDEgMCAwMS0xLjQ5Ni44NjlsLTMuMTY2LTEuODFhMSAxIDAgMDEtLjUwNC0uODdsLjAyOC0xNi40M0ExIDEgMCAwMTEuNTI3Ljg2bDEwLjg0NSA2LjIyOWExIDEgMCAwMC45OTYgMEwyNC4yMS44NmExIDEgMCAwMTEuNDk4Ljg2OHYxNi40MzRhMSAxIDAgMDEtLjUwMS44NjdsLTUuNjc4IDMuMjdhMSAxIDAgMDAuMDA0IDEuNzM1bDMuMTMyIDEuNzgzYTEgMSAwIDAwLjk5My0uMDAybDYuNjg1LTMuODM5ek0zMSA3LjIzNGExIDEgMCAwMDEuNTE0Ljg1N2wzLTEuOEExIDEgMCAwMDM2IDUuNDM0VjEuNzY2QTEgMSAwIDAwMzQuNDg2LjkxbC0zIDEuOGExIDEgMCAwMC0uNDg2Ljg1N3YzLjY2OHoiCiAgICBmaWxsPSIjMDA3RkZGIgogIC8+Cjwvc3ZnPgo=",
-      },
-      {
-        name: "PrimeNG",
-        image:
-          "https://www.primefaces.org/store/javax.faces.resource/store/image/primeng.svg.xhtml",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/material.svg?raw=true",
       },
       {
         name: "Bootstrap",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/bootstrap.png?raw=true",
       },
       {
         name: "Tailwind CSS",
         image:
-          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/tailwind.svg?raw=true",
+      },
+      {
+        name: "PrimeNG",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeng.svg.xhtml?raw=true",
+      },
+      {
+        name: "PrimeFlex",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeflex.svg.xhtml?raw=true",
       },
     ],
   },
@@ -97,109 +105,94 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node.Js",
-        image: "https://avatars.githubusercontent.com/u/9950313?s=48&v=4",
-      },
-      {
-        name: "Express.Js",
+        name: "Node",
         image:
-          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/8d565/express-js.webp",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/node.svg?raw=true",
       },
       {
-        name: "Nest.js",
-        image: "https://nestjs.com/logo-small-gradient.76616405.svg",
+        name: "Express",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/express.webp?raw=true",
+      },
+      {
+        name: "Nest",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
       },
       {
         name: "GraphQL",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/graphql.svg?raw=true",
       },
       {
         name: "Asp.Net Core",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/768px-.NET_Core_Logo.svg.png?20210328084203",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/netcore.png?raw=true",
       },
       {
         name: "MySQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mysql.svg?raw=true",
       },
       {
         name: "PostgreSQL",
-        image: "https://www.postgreSQL.org/media/img/about/press/elephant.png",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
+      },
+      {
+        name: "MSSQL Server",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mssql.png?raw=true",
       },
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mongodb.svg?raw=true",
       },
       {
         name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/firebase.svg?raw=true",
       },
     ],
   },
-  //   {
-  //     title: "DevOps",
-  //     skills: [
-  //       {
-  //         name: "AWS",
-  //         image:
-  //           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-  //       },
-  //       {
-  //         name: "Google Cloud",
-  //         image:
-  //           "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-  //       },
-  //       {
-  //         name: "Docker",
-  //         image:
-  //           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-  //       },
-  //       {
-  //         name: "Jenkins",
-  //         image:
-  //           "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-  //       },
-  //       {
-  //         name: "Kubernetes",
-  //         image:
-  //           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-  //       },
-  //     ],
-  //   },
   {
     title: "Others",
     skills: [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/git.png?raw=true",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/github.png?raw=true",
       },
       {
         name: "GitLab",
         image:
-          "https://images.ctfassets.net/xz1dnu24egyd/3FbNmZRES38q2Sk2EcoT7a/a290dc207a67cf779fc7c2456b177e9f/press-kit-icon.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitkab.svg?raw=true",
       },
       {
         name: "Docker",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
+      },
+      {
+        name: "Jira",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/jira.png?raw=true",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vscode.png?raw=true",
       },
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/postman.png?raw=true",
       },
     ],
   },
@@ -208,7 +201,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/C560BAQExatdOJ-A4jQ/company-logo_200_200/company-logo_200_200/0/1631318670927?e=1736985600&v=beta&t=dGfZu4xLG8X43ymWidfZgA5ylEvawh-TCiT70i-wp1A",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.png?raw=true",
     role: "Software Engineer",
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
@@ -217,7 +210,9 @@ export const experiences = [
       "Angular",
       "NgRx",
       "PrimeNG",
+      "PrimeFlex",
       "Material UI",
+      "Tailwind CSS",
       "HTML",
       "CSS",
       "JavaScript",
@@ -230,7 +225,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/tos.png?raw=true",
     role: "Software Engineer",
     company: "TopOfStack Software Ltd.",
     date: "Jan 2022 - Mar 2024",
@@ -256,7 +251,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://topofstacksoftware.com/wp-content/uploads/2019/12/topofstack_Logo.png",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/tos.png?raw=true",
     role: "Full Stack Developer Intern",
     company: "TopOfStack Software Ltd.",
     date: "Sep 2021 - Dec 2021",
@@ -280,7 +275,7 @@ export const experiences = [
 export const educations = [
   {
     id: 0,
-    img: "https://cu.ac.bd/assets/image/culogolightblue.png",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/cu.png?raw=true",
     school: "University of Chittagong",
     date: "Jan 2017 - Dec 2021",
     grade: "CGPA 3.21 / 4.00",
@@ -289,7 +284,7 @@ export const educations = [
   },
   {
     id: 1,
-    img: "data:image/jpeg;base64,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",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dgc.jpeg?raw=true",
     school: "Darsana Govt. College",
     date: "June 2014 - Apr 2016",
     grade: "4.92 / 5.00",
@@ -298,7 +293,7 @@ export const educations = [
   },
   {
     id: 2,
-    img: "https://jessoreboard.gov.bd/jb_logo_new.png",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/chs.png?raw=true",
     school: "Carew's High School",
     date: "Jan 2009 - Feb 2014",
     grade: "5.00 / 5.00",
