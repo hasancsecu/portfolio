@@ -47,7 +47,7 @@ export const skills = [
       {
         name: "Next",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/angular.next?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.svg?raw=true",
       },
       {
         name: "Vue",
