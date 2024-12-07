@@ -308,17 +308,16 @@ export const projects = [
     title: "PQCAL (OMS)",
     date: "Apr 2024 - Present",
     description:
-      "An advanced online trading platform offering seamless order management, real-time analytics, and multi-asset support for optimized trading performance.",
+      "An advanced online trading platform offering seamless order management, real-time analytics, and multi-asset support for optimized trading performance. Responsible for developing the front-end using Angular, PrimeNG, NgRx, AG Grid, and TradingView Charts",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/pqcal.png?raw=true",
     tags: [
       "Angular",
       "NgRx",
       "PrimeNG",
-      "Spring boot",
-      "Microsoft SQL Server",
-      "PostgreSQL",
-      "Microservices",
+      "AG Grid",
+      "TradingView Charts",
+      "OAuth2 Authentication",
       "Docker",
     ],
     category: "frontend",
@@ -330,7 +329,7 @@ export const projects = [
     title: "Muslim Bangla",
     date: "Sept 2021 - Feb 2024",
     description:
-      "A website where you can find the Quran, Hadith, Prayer time, Dua, Masail, Article, Lecture, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website (front-end), integrating payment with bKash, Nagad, and AmarPay (front-end and back-end), developing and improving the API (back-end)",
+      "A comprehensive Islamic website offering Quran, Hadiths, Prayer time, Duas, Islamic QAs, Articles, Lectures, Books, Zakat calculator, and so many features. Built with Node, Express, MySQL, and Angular. Responsible for front-end design, payment integration (bKash, Nagad, AmarPay), and back-end API development and optimization.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla.png?raw=true",
     tags: [
@@ -338,9 +337,11 @@ export const projects = [
       "Express.Js",
       "MySQL",
       "PostgreSQL",
+      "Sequelize",
       "Angular",
       "Payment Gateway",
       "Meilisearch",
+      "Redis",
       "JWT Authentication",
     ],
     category: "fullstack",
@@ -360,7 +361,7 @@ export const projects = [
     title: "Muslimbangla Admin",
     date: "Sept 2021 - Feb 2024",
     description:
-      "An admin panel for Muslim Bangla app and website with which all the data of the app are managed. Developed Using Node, Express, MySQL, JWT Authentication, Redis, Nodemailer, and Angular. Responsible for adding many features and improving previous ones (front-end and back-end).",
+      "An admin panel for managing all content on the Muslim Bangla app and website. Built with Node, Express, MySQL, Redis, JWT, Nodemailer, and Angular. Added new features and enhanced existing ones across front-end and back-end.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla-admin.png?raw=true",
     tags: [
@@ -383,7 +384,7 @@ export const projects = [
     title: "Quiz App",
     date: "Feb 2023 - Oct 2023",
     description:
-      'A web app developed for MuslimBangla Android and MuslimBangla iOS app where users can participate in daily quizzes, show their positions on the leaderboard, and also contribute questions to the quiz. Developed Using Node, Express, MySQL,  JWT Authentication, Redis, and Angular. Responsible for designing the web app (front-end) and developing the API (back-end). See the “Quiz" section on the app',
+      "A web-based quiz feature for the MuslimBangla mobile apps, with daily test quiz, monthly quiz session and user leaderboards. Built with Node, Express, MySQL, Redis, JWT, and Angular. Developed both front-end and back-end.). See the “Quiz section” on the app",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/quiz.png?raw=true",
     tags: [
@@ -404,7 +405,7 @@ export const projects = [
     title: "Muslim Dawah",
     date: "Jan 2023 - Oct 2023",
     description:
-      "A website where you can find the Quran, Hadith, Prayer time, Dua, Book, Zakat calculator, etc. all in one place. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the website.",
+      "A comprehensive Islamic website offering Quran, Hadiths, Prayer time, Duas, Islamic QAs, Articles, Lectures, Books, Zakat calculator, and so many features. Built with Node, Express, MySQL, and Angular. Responsible for front-end design, payment integration (bKash, Nagad, AmarPay), and back-end API development and optimization.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimdawah.png?raw=true",
     tags: ["Node.Js", "Express.Js", "MySQL", "Angular", "Redis"],
@@ -417,7 +418,7 @@ export const projects = [
     title: "United Garments Manufacturing",
     date: "Feb 2022 - Oct 2022",
     description:
-      "A Web App to manage garment products and orders. Developed Using Node, Express, MongoDB, and Angular. Responsible for designing the website.",
+      "A web platform to manage garment products and orders, developed with Node, Express, MySQL, and Angular. Handled front-end design and contributed to some API development.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/ugm.png?raw=true",
     tags: [
@@ -450,7 +451,7 @@ export const projects = [
     title: "Article Webview",
     date: "Sept 2022 - Nov 2022",
     description:
-      "A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.",
+      "A web app developed for MuslimBangla Android and iOS apps. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/article.png?raw=true",
     tags: ["Node.Js", "Express.Js", "MySQL", "Angular", "Meilisearch"],
@@ -463,7 +464,7 @@ export const projects = [
     title: "Lecture Webview",
     date: "Dec 2022 - Feb 2022",
     description:
-      "A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.",
+      "A web app developed for MuslimBangla Android and iOS apps. Developed Using Node, Express, MySQL, and Angular. Responsible for designing the web app.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/lecture.png?raw=true",
     tags: ["Node.Js", "Express.Js", "MySQL", "Angular"],
