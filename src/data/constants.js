@@ -211,6 +211,8 @@ export const experiences = [
       "NgRx",
       "PrimeNG",
       "PrimeFlex",
+      "AG Grid",
+      "TradingView Charts",
       "Material UI",
       "Tailwind CSS",
       "HTML",
