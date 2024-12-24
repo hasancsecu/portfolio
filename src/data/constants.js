@@ -417,6 +417,19 @@ export const projects = [
   },
   {
     id: 5,
+    title: "HICNY (Hillside Islamic Center)",
+    date: "June 2023 - Mar 2024",
+    description:
+      "A non-profit Islamic center providing religious, educational, and community services, including youth programs, outreach, and daily prayers. Built with Nest.js, PostgreSQL, Redis, JWT, Strapi, and Next.js. Responsible for front-end design, payment integration, and back-end API development and optimization.",
+    image:
+      "https://github.com/hasancsecu/portfolio/blob/main/src/images/hicny.png?raw=true",
+    tags: ["Node.Js", "Nest.Js", "PostgreSQL", "Strapi", "Next.js", "Redux"],
+    category: "fullstack",
+    github: "https://gitlab.com/imtiaztos/hicny",
+    webapp: "https://hicny.org/",
+  },
+  {
+    id: 6,
     title: "United Garments Manufacturing",
     date: "Feb 2022 - Oct 2022",
     description:
@@ -436,7 +449,7 @@ export const projects = [
     webapp: "https://www.unitedgarmentsmanufacturing.com/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Hadith Webview",
     date: "Jan 2022 - June 2022",
     description:
@@ -449,7 +462,7 @@ export const projects = [
     webapp: "https://hadith.muslimbangla.com/?theme=dark",
   },
   {
-    id: 7,
+    id: 8,
     title: "Article Webview",
     date: "Sept 2022 - Nov 2022",
     description:
@@ -462,7 +475,7 @@ export const projects = [
     webapp: "https://article.muslimbangla.com/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Lecture Webview",
     date: "Dec 2022 - Feb 2022",
     description:
@@ -475,7 +488,7 @@ export const projects = [
     webapp: "https://lecture.muslimbangla.com/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Masail Webview",
     date: "June 2022 - Aug 2022",
     description:
@@ -488,7 +501,7 @@ export const projects = [
     webapp: "https://masail.muslimbangla.com/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Muslim Dawah Admin",
     date: "Jan 2023 - Oct 2023",
     description:
@@ -508,17 +521,17 @@ export const projects = [
     github: "https://gitlab.com/imtiaztos/muslimdawah-admin-api",
     webapp: "https://admin.muslimdawah.org/",
   },
-  {
-    id: 11,
-    title: "Ecommerce",
-    date: "Jan 2020 - June 2020",
-    description:
-      "A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).",
-    image:
-      "https://github.com/hasancsecu/portfolio/blob/main/src/images/ecommerce.png?raw=true",
-    tags: ["php", "Laravel", "MySQL", "Authentication", "post mail"],
-    category: "fullstack",
-    github: "https://github.com/hasancsecu/ecommerce",
-    webapp: "https://github.com/hasancsecu/ecommerce",
-  },
+  // {
+  //   id: 11,
+  //   title: "Ecommerce",
+  //   date: "Jan 2020 - June 2020",
+  //   description:
+  //     "A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).",
+  //   image:
+  //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/ecommerce.png?raw=true",
+  //   tags: ["php", "Laravel", "MySQL", "Authentication", "post mail"],
+  //   category: "fullstack",
+  //   github: "https://github.com/hasancsecu/ecommerce",
+  //   webapp: "https://github.com/hasancsecu/ecommerce",
+  // },
 ];
