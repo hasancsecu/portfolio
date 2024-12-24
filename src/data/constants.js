@@ -231,7 +231,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpg?raw=true",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true",
     role: "Software Engineer",
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
