@@ -210,6 +210,11 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/kubernetes.svg?raw=true",
       },
       {
+        name: "Elastic Search",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/elasticsearch.png?raw=true",
+      },
+      {
         name: "Jira",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/jira.png?raw=true",
