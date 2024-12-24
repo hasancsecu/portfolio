@@ -62,7 +62,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/css.png?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/css.svg?raw=true",
       },
       {
         name: "JavaScript",
@@ -120,14 +120,19 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
       },
       {
-        name: "GraphQL",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/graphql.svg?raw=true",
-      },
-      {
         name: "Asp.Net Core",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/netcore.png?raw=true",
+      },
+      {
+        name: "REST API",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/rest-api.svg?raw=true",
+      },
+      {
+        name: "GraphQL",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/graphql.svg?raw=true",
       },
       {
         name: "MySQL",
@@ -139,15 +144,35 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
       },
+      // {
+      //   name: "MSSQL Server",
+      //   image:
+      //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/mssql.png?raw=true",
+      // },
       {
-        name: "MSSQL Server",
+        name: "Sequelize",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mssql.png?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sequelize.svg?raw=true",
+      },
+      {
+        name: "TypeORM",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/typeorm.svg?raw=true",
       },
       {
         name: "MongoDB",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/mongodb.svg?raw=true",
+      },
+      {
+        name: "Mongoose",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mongoose.png?raw=true",
+      },
+      {
+        name: "Redis",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/redis.svg?raw=true",
       },
       {
         name: "Firebase",
@@ -180,6 +205,11 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
       },
       {
+        name: "Kubernetes",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/kubernetes.svg?raw=true",
+      },
+      {
         name: "Jira",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/jira.png?raw=true",
@@ -201,7 +231,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpg?raw=true",
     role: "Software Engineer",
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
