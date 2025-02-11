@@ -49,11 +49,11 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.png?raw=true",
       },
-      {
-        name: "Vue",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
-      },
+      // {
+      //   name: "Vue",
+      //   image:
+      //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
+      // },
       {
         name: "HTML",
         image:
@@ -75,6 +75,11 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/typescript.png?raw=true",
       },
       {
+        name: "Tailwind CSS",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/tailwind.svg?raw=true",
+      },
+      {
         name: "Material UI",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/material.svg?raw=true",
@@ -83,11 +88,6 @@ export const skills = [
         name: "Bootstrap",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/bootstrap.png?raw=true",
-      },
-      {
-        name: "Tailwind CSS",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/tailwind.svg?raw=true",
       },
       {
         name: "PrimeNG",
@@ -204,11 +204,11 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
       },
-      {
-        name: "Kubernetes",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/kubernetes.svg?raw=true",
-      },
+      // {
+      //   name: "Kubernetes",
+      //   image:
+      //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/kubernetes.svg?raw=true",
+      // },
       {
         name: "Elastic Search",
         image:
