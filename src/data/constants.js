@@ -120,7 +120,7 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
       },
       {
-        name: "Asp.Net Core",
+        name: ".NET Core",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/netcore.png?raw=true",
       },
@@ -241,7 +241,7 @@ export const experiences = [
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
     skills: [
-      "Asp.Net Core",
+      ".NET Core",
       "Angular",
       "NgRx",
       "PrimeNG",
