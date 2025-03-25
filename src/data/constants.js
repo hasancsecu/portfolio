@@ -49,11 +49,11 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.png?raw=true",
       },
-      // {
-      //   name: "Vue",
-      //   image:
-      //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
-      // },
+      {
+        name: "Vue",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
+      },
       {
         name: "HTML",
         image:
