@@ -342,7 +342,7 @@ export const educations = [
 export const projects = [
   {
     id: 0,
-    title: "PQCAL (OMS)",
+    title: "PQcal (OMS)",
     date: "Apr 2024 - Present",
     description:
       "An advanced online trading platform offering seamless order management, real-time analytics, and multi-asset support for optimized trading performance. Responsible for developing the front-end using Angular, PrimeNG, NgRx, AG Grid, and TradingView Charts",
