@@ -40,19 +40,14 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/react.svg?raw=true",
       },
       {
-        name: "Redux",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/redux.svg?raw=true",
-      },
-      {
         name: "Next",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.png?raw=true",
       },
       {
-        name: "Vue",
+        name: "Redux",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vue.png?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/redux.svg?raw=true",
       },
       {
         name: "HTML",
@@ -120,9 +115,14 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
       },
       {
-        name: ".NET Core",
+        name: "Java",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/netcore.png?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/java.png?raw=true",
+      },
+      {
+        name: "Spring Boot",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/spring-boot.png?raw=true",
       },
       {
         name: "REST API",
@@ -143,11 +143,6 @@ export const skills = [
         name: "PostgreSQL",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
-      },
-      {
-        name: "MSSQL Server",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mssql.png?raw=true",
       },
       {
         name: "Sequelize",
@@ -204,11 +199,6 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
       },
-      // {
-      //   name: "Kubernetes",
-      //   image:
-      //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/kubernetes.svg?raw=true",
-      // },
       {
         name: "Elastic Search",
         image:
@@ -241,7 +231,10 @@ export const experiences = [
     company: "Dohatec New Media",
     date: "Apr 2024 - Present",
     skills: [
-      ".NET Core",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "MongoDB",
       "Angular",
       "NgRx",
       "PrimeNG",
@@ -276,27 +269,6 @@ export const experiences = [
       "Angular",
       "React.js",
       "Next.Js",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "Git",
-      "Gitlab",
-      "Postman",
-    ],
-  },
-  {
-    id: 2,
-    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/tos.png?raw=true",
-    role: "Full Stack Developer Intern",
-    company: "TopOfStack Software Ltd.",
-    date: "Sep 2021 - Dec 2021",
-    skills: [
-      "Node.js",
-      "Express.js",
-      "Angular",
-      "Vue.js",
       "Material UI",
       "HTML",
       "CSS",
@@ -384,14 +356,6 @@ export const projects = [
     category: "fullstack",
     github: "https://gitlab.com/imtiaztos/muslimbangla-web",
     webapp: "https://muslimbangla.com/",
-    // member: [
-    //   {
-    //     name: "Muhammad Hasan",
-    //     img: "https://lh3.googleusercontent.com/a/ACg8ocIZc-OatGBGBJ69ozEMPAB7gyIkqDS47Q9Qk9GBO-I1y2M=s389-c-no",
-    //     linkedin: "https://www.linkedin.com/in/muhammad-hasan-6a3469195/",
-    //     github: "https://github.com/hasancsecu/",
-    //   },
-    // ],
   },
   {
     id: 2,
@@ -556,17 +520,4 @@ export const projects = [
     github: "https://gitlab.com/imtiaztos/muslimdawah-admin-api",
     webapp: "https://admin.muslimdawah.org/",
   },
-  // {
-  //   id: 11,
-  //   title: "Ecommerce",
-  //   date: "Jan 2020 - June 2020",
-  //   description:
-  //     "A complete ecommerce platform. Developed Using Php, Laravel, and MySQL. Responsible for designing the website (front-end) and developing the API (back-end).",
-  //   image:
-  //     "https://github.com/hasancsecu/portfolio/blob/main/src/images/ecommerce.png?raw=true",
-  //   tags: ["php", "Laravel", "MySQL", "Authentication", "post mail"],
-  //   category: "fullstack",
-  //   github: "https://github.com/hasancsecu/ecommerce",
-  //   webapp: "https://github.com/hasancsecu/ecommerce",
-  // },
 ];
