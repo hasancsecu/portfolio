@@ -1,6 +1,6 @@
-
 import { Bio } from "@/data/portfolioData";
 import { ChevronUp, Github, Linkedin, Facebook } from "lucide-react";
+import { DiCssdeck } from "react-icons/di";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -16,10 +16,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-1">
             <h3 className="text-2xl font-bold mb-4">
-              Abu<span className="text-purple-400">Tamanna</span>
+              <span className="text-purple-600 flex items-center gap-1">
+                <DiCssdeck size="2.5rem" /> Portfolio
+              </span>
             </h3>
             <p className="text-gray-400 mb-4">
-              Full Stack Web Developer with a passion for creating beautiful, functional, and user-friendly applications.
+              Full Stack Web Developer with a passion for creating beautiful,
+              functional, and user-friendly applications.
             </p>
             <div className="flex space-x-4">
               <a
