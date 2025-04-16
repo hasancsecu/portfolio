@@ -47,10 +47,15 @@ const Experience = () => {
                         <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                           {experience.role}
                         </h3>
-                        <p className="text-purple-600 dark:text-purple-400 font-medium">
+                        <a
+                          href={experience.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-purple-600 dark:text-purple-400 font-medium"
+                        >
                           {experience.company}
-                        </p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                        </a>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 uppercase">
                           {experience.date}
                         </p>
                       </div>
@@ -64,7 +69,7 @@ const Experience = () => {
                         {experience.skills.map((skill, skillIndex) => (
                           <span
                             key={skillIndex}
-                            className="text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-2 py-1 rounded-full"
+                            className="text-xs bg-purple-100 dark:bg-purple-900/50 text-purple-800 dark:text-purple-300 px-2 py-1 rounded-full"
                           >
                             {skill}
                           </span>

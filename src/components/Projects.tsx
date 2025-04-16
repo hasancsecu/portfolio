@@ -40,7 +40,7 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center mb-12">
-          <div className="inline-flex flex-wrap gap-2 p-1 bg-white dark:bg-slate-900 rounded-lg shadow-md">
+          <div className="inline-flex flex-wrap justify-center gap-2 p-1 bg-white dark:bg-slate-900 rounded-lg shadow-md">
             {categories.map((category) => (
               <button
                 key={category.id}
@@ -79,7 +79,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-900 text-white p-2 rounded-full hover:bg-gray-800 transition-colors"
+                    className="bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 hover:dark:bg-gray-600 text-white p-2 rounded-full transition-colors"
                     onClick={(e) => e.stopPropagation()}
                   >
                     <Github size={18} />
@@ -101,7 +101,7 @@ const Projects = () => {
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white line-clamp-1">
                     {project.title}
                   </h3>
-                  <span className="text-xs text-gray-500 dark:text-gray-400">
+                  <span className="text-xs text-gray-500 dark:text-gray-400 uppercase">
                     {project.date}
                   </span>
                 </div>
@@ -139,16 +139,13 @@ const Projects = () => {
         {selectedProject && (
           <DialogContent className="sm:max-w-3xl overflow-y-auto max-h-[90vh]">
             <DialogHeader>
-              <DialogTitle className="text-2xl font-bold flex justify-between items-center">
+              <DialogTitle className="text-2xl font-bold">
                 {selectedProject.title}
-                <span className="text-sm font-normal text-gray-500 dark:text-gray-400">
-                  {selectedProject.date}
-                </span>
               </DialogTitle>
             </DialogHeader>
 
             <div className="mt-4">
-              <div className="w-full h-64 sm:h-[300px] rounded-lg overflow-hidden mb-4">
+              <div className="w-full  rounded-lg overflow-hidden mb-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
@@ -156,6 +153,9 @@ const Projects = () => {
                 />
               </div>
 
+              <p className="text-gray-700 dark:text-gray-300 mb-3 text-xs uppercase">
+                {selectedProject.date}
+              </p>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
                 {selectedProject.description}
               </p>
@@ -179,7 +179,7 @@ const Projects = () => {
                   href={selectedProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 bg-gray-900 hover:bg-gray-800 text-white rounded-md inline-flex items-center justify-center gap-2"
+                  className="px-4 py-2 bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 hover:dark:bg-gray-600 text-white rounded-md inline-flex items-center justify-center gap-2"
                 >
                   <Github size={18} />
                   <span>View Code</span>

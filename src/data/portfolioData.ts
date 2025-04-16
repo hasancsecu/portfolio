@@ -231,6 +231,7 @@ export const experiences = [
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true",
     role: "Software Engineer",
     company: "Dohatec New Media",
+    link: "https://dohatec.com/",
     date: "Apr 2024 - Present",
     skills: [
       "Java",
@@ -260,6 +261,7 @@ export const experiences = [
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/tos.png?raw=true",
     role: "Software Engineer",
     company: "TopOfStack Software Ltd.",
+    link: "https://topofstacksoftware.com/",
     date: "Jan 2022 - Mar 2024",
     skills: [
       "Node.js",

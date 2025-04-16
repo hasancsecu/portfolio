@@ -7,8 +7,8 @@ import { Github, Linkedin, Facebook, Mail, Phone, Loader2 } from "lucide-react";
 const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    from_email: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -49,7 +49,7 @@ const Contact = () => {
             message: "Message sent successfully! I'll get back to you soon.",
           });
           form.current.reset();
-          setFormData({ name: "", email: "", message: "" });
+          setFormData({ from_name: "", from_email: "", message: "" });
 
           setTimeout(() => {
             setSubmitStatus({ type: null, message: null });
@@ -137,7 +137,7 @@ const Contact = () => {
                   href={Bio.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-900 text-white p-3 rounded-full hover:bg-gray-800 transition-colors"
+                  className="bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 hover:dark:bg-gray-600 text-white p-3 rounded-full  transition-colors"
                 >
                   <Github size={20} />
                 </a>
@@ -193,9 +193,9 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
+                  id="from_name"
+                  name="from_name"
+                  value={formData.from_name}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 dark:bg-slate-800 text-gray-900 dark:text-gray-100"
@@ -205,16 +205,16 @@ const Contact = () => {
 
               <div>
                 <label
-                  htmlFor="email"
+                  htmlFor="from_email"
                   className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
                 >
                   Your Email
                 </label>
                 <input
                   type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
+                  id="from_email"
+                  name="from_email"
+                  value={formData.from_email}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 dark:bg-slate-800 text-gray-900 dark:text-gray-100"

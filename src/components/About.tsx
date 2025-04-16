@@ -39,7 +39,7 @@ const About = () => {
                 href={Bio.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition-colors"
+                className="flex items-center gap-2 px-4 py-2 bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 hover:dark:bg-gray-600 text-white rounded-md  transition-colors"
               >
                 <Github size={20} />
                 GitHub
