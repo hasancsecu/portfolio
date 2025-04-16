@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { projects } from "@/data/portfolioData";
 import { motion } from "framer-motion";
@@ -14,11 +13,14 @@ type Category = "all" | "fullstack" | "frontend" | "backend";
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("all");
-  const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);
+  const [selectedProject, setSelectedProject] = useState<
+    (typeof projects)[0] | null
+  >(null);
 
-  const filteredProjects = activeCategory === "all"
-    ? projects
-    : projects.filter(project => project.category === activeCategory);
+  const filteredProjects =
+    activeCategory === "all"
+      ? projects
+      : projects.filter((project) => project.category === activeCategory);
 
   const categories = [
     { id: "all", label: "All Projects" },
@@ -28,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-gray-50 dark:bg-slate-800">
+    <section id="projects" className="py-16 bg-gray-50 dark:bg-slate-800">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -103,11 +105,11 @@ const Projects = () => {
                     {project.date}
                   </span>
                 </div>
-                
+
                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-3">
                   {project.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {project.tags.slice(0, 4).map((tag, tagIndex) => (
                     <span
@@ -130,7 +132,10 @@ const Projects = () => {
       </div>
 
       {/* Project Details Modal */}
-      <Dialog open={!!selectedProject} onOpenChange={(open) => !open && setSelectedProject(null)}>
+      <Dialog
+        open={!!selectedProject}
+        onOpenChange={(open) => !open && setSelectedProject(null)}
+      >
         {selectedProject && (
           <DialogContent className="sm:max-w-3xl overflow-y-auto max-h-[90vh]">
             <DialogHeader>
@@ -144,9 +149,9 @@ const Projects = () => {
 
             <div className="mt-4">
               <div className="w-full h-64 sm:h-[300px] rounded-lg overflow-hidden mb-4">
-                <img 
-                  src={selectedProject.image} 
-                  alt={selectedProject.title} 
+                <img
+                  src={selectedProject.image}
+                  alt={selectedProject.title}
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -159,8 +164,8 @@ const Projects = () => {
                 <h4 className="text-lg font-semibold mb-2">Technologies</h4>
                 <div className="flex flex-wrap gap-2">
                   {selectedProject.tags.map((tag, index) => (
-                    <span 
-                      key={index} 
+                    <span
+                      key={index}
                       className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm"
                     >
                       {tag}
