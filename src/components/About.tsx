@@ -25,12 +25,12 @@ const About = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Full Stack Web Developer
+                {Bio.role}
               </h3>
 
               <div
                 className="text-gray-600 dark:text-gray-300"
-                dangerouslySetInnerHTML={{ __html: Bio.description }}
+                dangerouslySetInnerHTML={{ __html: Bio.about }}
               />
             </div>
 

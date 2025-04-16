@@ -3,6 +3,8 @@ export const Bio = {
   role: "Full Stack Web Developer",
   description:
     "I'm a software engineer currently working at <a href='https://dohatec.com/' target='_blank'>Dohatec New Media</a>. I have a great interest in web development and over 3.5 years of experience in the relevant field. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  about:
+    "I am a skilled Full-Stack Developer with over 3.5 years of professional experience in developing scalable and high-performing web applications and APIs. My expertise spans across modern back-end technologies like Node.js (Express.js, Nest.js), and Java (Spring Boot) as well as front-end frameworks like Angular, React.js, and Next.js.<br /> <br />I excel in working with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, leveraging powerful ORMs like Sequelize, TypeORM, and Mongoose to streamline development. With hands-on experience in designing robust systems and crafting clean, maintainable code, I thrive in collaborative and innovative environments.",
   github: "https://github.com/hasancsecu",
   resume:
     "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
