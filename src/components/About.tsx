@@ -13,13 +13,11 @@ const About = () => {
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
-            <div className="aspect-square bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center text-white text-7xl font-bold">
-              {Bio.name
-                .split(" ")
-                .map((name) => name[0])
-                .join("")}
-            </div>
+          <div className="rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300 flex justify-center">
+            <img
+              src="https://github.com/hasancsecu/portfolio/blob/main/src/images/HeroImage.jpg?raw=true"
+              alt="HeroImage"
+            />
           </div>
 
           <div className="space-y-6">

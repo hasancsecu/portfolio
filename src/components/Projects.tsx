@@ -72,7 +72,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
+                  className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-between p-4">
                   <a
@@ -97,7 +97,7 @@ const Projects = () => {
               </div>
 
               <div className="p-6">
-                <div className="flex justify-between items-start mb-3">
+                <div className="flex justify-between items-center gap-3 mb-3">
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white line-clamp-1">
                     {project.title}
                   </h3>
@@ -145,7 +145,7 @@ const Projects = () => {
             </DialogHeader>
 
             <div className="mt-4">
-              <div className="w-full  rounded-lg overflow-hidden mb-4">
+              <div className="w-full rounded-lg overflow-hidden mb-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
@@ -166,7 +166,7 @@ const Projects = () => {
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm"
+                      className="bg-purple-100 dark:bg-purple-900/50 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm"
                     >
                       {tag}
                     </span>

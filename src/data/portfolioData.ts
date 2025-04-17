@@ -299,8 +299,8 @@ export const educations = [
     id: 1,
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/dgc.jpeg?raw=true",
     school: "Darsana Govt. College",
-    date: "June 2014 - Apr 2016",
-    grade: "4.92 / 5.00",
+    date: "Jun 2014 - Apr 2016",
+    grade: "GPA 4.92 / 5.00",
     desc: "Completed class 12 education in Science from Darsana Govt. College, Darsana, Chuadanga.",
     degree: "HSC (Science)",
   },
@@ -309,7 +309,7 @@ export const educations = [
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/chs.png?raw=true",
     school: "Carew's High School",
     date: "Jan 2009 - Feb 2014",
-    grade: "5.00 / 5.00",
+    grade: "GPA 5.00 / 5.00",
     desc: "Completed class 10 education in Science from Carew's High School, Darsana, Chuadanga.",
     degree: "SSC (Science)",
   },
@@ -340,7 +340,7 @@ export const projects = [
   {
     id: 1,
     title: "Muslim Bangla",
-    date: "Sept 2021 - Feb 2024",
+    date: "Sep 2021 - Feb 2024",
     description:
       "A comprehensive Islamic website offering Quran, Hadiths, Prayer time, Duas, Islamic QAs, Articles, Lectures, Books, Zakat calculator, and so many features. Built with Node, Express, MySQL, and Angular. Responsible for front-end design, payment integration (bKash, Nagad, AmarPay), and back-end API development and optimization.",
     image:
@@ -364,7 +364,7 @@ export const projects = [
   {
     id: 2,
     title: "Muslimbangla Admin",
-    date: "Sept 2021 - Feb 2024",
+    date: "Sep 2021 - Feb 2024",
     description:
       "An admin panel for managing all content on the Muslim Bangla app and website. Built with Node, Express, MySQL, Redis, JWT, Nodemailer, and Angular. Added new features and enhanced existing ones across front-end and back-end.",
     image:
@@ -421,7 +421,7 @@ export const projects = [
   {
     id: 5,
     title: "HICNY (Hillside Islamic Center)",
-    date: "June 2023 - Mar 2024",
+    date: "Jun 2023 - Mar 2024",
     description:
       "A non-profit Islamic center providing religious, educational, and community services, including youth programs, outreach, and daily prayers. Built with Nest.js, PostgreSQL, Redis, JWT, Strapi, and Next.js. Responsible for front-end design, payment integration, and back-end API development and optimization.",
     image:
@@ -467,7 +467,7 @@ export const projects = [
   {
     id: 8,
     title: "Article Webview",
-    date: "Sept 2022 - Nov 2022",
+    date: "Sep 2022 - Nov 2022",
     description:
       "A web app developed for MuslimBangla Android and iOS apps. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.",
     image:
@@ -493,7 +493,7 @@ export const projects = [
   {
     id: 10,
     title: "Masail Webview",
-    date: "June 2022 - Aug 2022",
+    date: "Jun 2022 - Aug 2022",
     description:
       "A web app developed for MuslimBangla iOS app. Developed Using Node, Express, MySQL, Meilisearch, and Angular. Responsible for designing the web app.",
     image:

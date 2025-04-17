@@ -23,11 +23,8 @@ const Education = () => {
               transition={{ delay: index * 0.2, duration: 0.5 }}
               className="relative mb-12 last:mb-0 w-full"
             >
-              {/* Timeline element */}
               <div className="hidden md:block absolute left-0 top-0 bottom-0 w-0.5 bg-purple-200 dark:bg-purple-900"></div>
-
               <div className="flex flex-col md:flex-row">
-                {/* Timeline circle */}
                 <div className="hidden md:flex absolute left-[-20px] top-0 items-center justify-center w-10 h-10 rounded-full bg-purple-600 text-white">
                   <GraduationCap size={18} />
                 </div>
@@ -50,8 +47,8 @@ const Education = () => {
                         <p className="text-purple-600 dark:text-purple-400 font-medium">
                           {education.degree}
                         </p>
-                        <div className="flex flex-wrap justify-between">
-                          <span className="text-sm text-gray-500 dark:text-gray-400">
+                        <div className="flex flex-wrap justify-between gap-3">
+                          <span className="text-sm text-gray-500 dark:text-gray-400 uppercase">
                             {education.date}
                           </span>
                           <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
