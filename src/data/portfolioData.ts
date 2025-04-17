@@ -292,8 +292,8 @@ export const educations = [
     school: "University of Chittagong",
     date: "Jan 2017 - Dec 2021",
     grade: "CGPA 3.21 / 4.00",
-    desc: "Completed B.Sc. (Engineering) in Computer Science and Engineering (CSE) from University of Chittagong.",
-    degree: "B.Sc. (Engineering) in CSE",
+    desc: "Completed BSc (Engineering) in Computer Science and Engineering (CSE) from University of Chittagong.",
+    degree: "BSc (Engineering) in CSE",
   },
   {
     id: 1,
