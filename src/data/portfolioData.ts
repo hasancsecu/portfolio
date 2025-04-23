@@ -335,7 +335,7 @@ export const projects = [
     ],
     category: "frontend",
     github: "https://repo.dohatec.com.bd/DohaSecuritiesOMS/web-ui",
-    webapp: "http://pqcal.com/",
+    webapp: "https://pqcal.com/",
   },
   {
     id: 1,
