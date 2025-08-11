@@ -2,7 +2,7 @@ export const Bio = {
   name: "Abu Tamanna Hasan",
   role: "Full Stack Web Developer",
   description:
-    "I am a Software Engineer at <a class='text-purple-600 dark:text-purple-400' href='http://devxhub.com/' target='_blank'>DevxHub</a> with 4 years of professional experience in web development. I am passionate about building robust, high-quality web applications and take pride in delivering clean, maintainable code. With a positive attitude, strong work ethic, and a growth mindset, I am committed to making a meaningful contribution and achieving impactful results.",
+    "I am a Software Engineer at <a class='text-purple-600 dark:text-purple-400' href='http://devxhub.com/' target='_blank'>Devxhub</a> with 4 years of professional experience in web development. I am passionate about building robust, high-quality web applications and take pride in delivering clean, maintainable code. With a positive attitude, strong work ethic, and a growth mindset, I am committed to making a meaningful contribution and achieving impactful results.",
   about:
     "I am a skilled Full-Stack Developer with 4 years of professional experience building scalable, high-performance web applications and APIs. My expertise covers modern back-end technologies such as Node.js (Express.js, Nest.js), as well as front-end frameworks like Angular, React.js, and Next.js. <br /> <br />I have extensive experience working with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, and I leverage powerful ORMs like Sequelize, TypeORM, and Mongoose to accelerate development and ensure clean architecture. With a strong focus on designing robust systems and writing maintainable code, I thrive in collaborative, innovative environments where I can contribute to impactful solutions.",
   github: "https://github.com/hasancsecu",
@@ -225,7 +225,7 @@ export const experiences = [
     id: 0,
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/devxhub.png?raw=true",
     role: "Software Engineer II",
-    company: "DevxHub",
+    company: "Devxhub",
     link: "http://devxhub.com/",
     date: "Sep 2025 - Present",
     skills: [
