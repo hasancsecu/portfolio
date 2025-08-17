@@ -39,10 +39,9 @@ const Hero = () => {
           </a>
         </div>
       </div>
-
       <a
         href="#about"
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center text-gray-500 hover:text-purple-600 transition-colors animate-bounce"
+        className="absolute bottom-10 flex flex-col items-center justify-center text-gray-500 hover:text-purple-600 transition-colors animate-bounce"
       >
         <span className="text-sm mb-1">Scroll Down</span>
         <ArrowDown size={20} />
