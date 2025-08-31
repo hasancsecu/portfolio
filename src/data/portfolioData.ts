@@ -9,7 +9,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/abu-tamanna-hasan-6a3469195/",
-  facebook: "https://web.facebook.com/profile.php?id=100093932103965",
+  facebook: "https://web.facebook.com/profile.php?id=61580125407574",
   skype: "https://join.skype.com/invite/AdNqwqRL2xbt",
 };
 
