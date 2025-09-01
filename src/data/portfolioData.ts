@@ -223,8 +223,8 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/devxhub.png?raw=true",
-    role: "Software Engineer II",
+    img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/devxhub.webp?raw=true",
+    role: "Software Engineer (II)",
     company: "Devxhub",
     link: "http://devxhub.com/",
     date: "Sep 2025 - Present",
@@ -240,6 +240,7 @@ export const experiences = [
       "NgRx",
       "PrimeNG",
       "AG Grid",
+      "Chart.js",
       "Material UI",
       "Tailwind CSS",
       "JavaScript",
