@@ -109,7 +109,7 @@ export const skills = [
       {
         name: "Express",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/express.webp?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/express.png?raw=true",
       },
       {
         name: "Nest",
@@ -117,14 +117,14 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
       },
       {
-        name: "ASP.NET Core",
+        name: "C#",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/dotnet.webp?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/c-sharp.png?raw=true",
       },
       {
-        name: "Entity Framework Core",
+        name: "ASP.NET Core",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/entity.png?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/dotnet.png?raw=true",
       },
       {
         name: "REST API",
@@ -147,9 +147,14 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
       },
       {
+        name: "SQL Server",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sql-server.png?raw=true",
+      },
+      {
         name: "Sequelize",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sequelize.svg?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sequelize.png?raw=true",
       },
       {
         name: "TypeORM",
@@ -199,7 +204,12 @@ export const skills = [
       {
         name: "GitLab",
         image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitlab.svg?raw=true",
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitlab.png?raw=true",
+      },
+      {
+        name: "BitBucket",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/bitbucket.png?raw=true",
       },
       {
         name: "Docker",
@@ -207,9 +217,19 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
       },
       {
+        name: "Socket.io",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/socket.png?raw=true",
+      },
+      {
         name: "Elastic Search",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/elasticsearch.png?raw=true",
+      },
+      {
+        name: "Swagger",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/swagger.png?raw=true",
       },
       {
         name: "Jira",
@@ -242,8 +262,8 @@ export const experiences = [
       "Node.js",
       "Express.js",
       "Nest.js",
+      "C#",
       "ASP.NET Core",
-      "Entity Framework Core",
       "MySQL",
       "PostgreSQL",
       "MongoDB",
