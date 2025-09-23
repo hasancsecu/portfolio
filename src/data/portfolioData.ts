@@ -237,11 +237,6 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/jira.png?raw=true",
       },
       {
-        name: "VS Code",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/vscode.png?raw=true",
-      },
-      {
         name: "Postman",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/postman.png?raw=true",
@@ -278,7 +273,7 @@ export const experiences = [
       "Socket.io",
       "Docker",
       "Git",
-      "Gitlab",
+      "Github",
       "Postman",
     ],
   },
@@ -330,6 +325,7 @@ export const experiences = [
       "TypeScript",
       "Git",
       "Gitlab",
+      "BitBucket",
       "Postman",
     ],
   },
