@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a Software Engineer at <a class='text-purple-600 dark:text-purple-400' href='http://devxhub.com/' target='_blank'>Devxhub Pvt. Ltd.</a> with 4 years of professional experience in web development. I am passionate about building robust, high-quality web applications and take pride in delivering clean, maintainable code. With a positive attitude, strong work ethic, and a growth mindset, I am committed to making a meaningful contribution and achieving impactful results.",
   about:
-    "I am a skilled Full-Stack Developer with 4 years of professional experience building scalable, high-performance web applications and APIs. My expertise covers modern back-end technologies such as Node.js (Express.js, Nest.js), as well as front-end frameworks like Angular, React.js, and Next.js. <br /> <br />I have extensive experience working with both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, and I leverage powerful ORMs like Sequelize, TypeORM, and Mongoose to accelerate development and ensure clean architecture. With a strong focus on designing robust systems and writing maintainable code, I thrive in collaborative, innovative environments where I can contribute to impactful solutions.",
+    "I am a skilled Full-Stack Developer with 4 years of professional experience building scalable, high-performance web applications and APIs. My expertise covers modern back-end technologies such as Node.js (Express.js, Nest.js), ASP.NET Core as well as front-end frameworks like Angular, React.js, and Next.js. <br /> <br />I have extensive experience working with both SQL (MySQL, PostgreSQL, MSSQL) and NoSQL (MongoDB) databases, and I leverage powerful ORMs like Sequelize, TypeORM, Entity Framework Core and Mongoose to accelerate development and ensure clean architecture. With a strong focus on designing robust systems and writing maintainable code, I thrive in collaborative, innovative environments where I can contribute to impactful solutions.",
   github: "https://github.com/hasancsecu",
   resume:
     "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
@@ -30,6 +30,11 @@ export const skills = [
         name: "Angular",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/angular.png?raw=true",
+      },
+      {
+        name: "RxJs",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/rxjs.svg?raw=true",
       },
       {
         name: "NgRx",
@@ -91,11 +96,6 @@ export const skills = [
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeng.svg?raw=true",
       },
-      {
-        name: "PrimeFlex",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeflex.svg?raw=true",
-      },
     ],
   },
   {
@@ -147,7 +147,7 @@ export const skills = [
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
       },
       {
-        name: "SQL Server",
+        name: "MSSQL",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/sql-server.png?raw=true",
       },
@@ -160,6 +160,11 @@ export const skills = [
         name: "TypeORM",
         image:
           "https://github.com/hasancsecu/portfolio/blob/main/src/images/typeorm.svg?raw=true",
+      },
+      {
+        name: "Entity Framework Core",
+        image:
+          "https://github.com/hasancsecu/portfolio/blob/main/src/images/entity.png?raw=true",
       },
       {
         name: "MongoDB",
@@ -259,12 +264,14 @@ export const experiences = [
       "Nest.js",
       "C#",
       "ASP.NET Core",
-      "MySQL",
+      "MSSQL",
       "PostgreSQL",
       "MongoDB",
       "Redis",
       "Angular",
+      "RxJs",
       "NgRx",
+      "PrimeNG",
       "Chart.js",
       "Material UI",
       "Tailwind CSS",
@@ -291,7 +298,6 @@ export const experiences = [
       "PrimeFlex",
       "AG Grid",
       "TradingView Charts",
-      "Material UI",
       "Tailwind CSS",
       "JavaScript",
       "TypeScript",
