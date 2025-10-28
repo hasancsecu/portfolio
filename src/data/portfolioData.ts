@@ -395,7 +395,7 @@ export const projects = [
     title: "Muslim Bangla",
     date: "Sep 2021 - Feb 2024",
     description:
-      "A comprehensive Islamic website offering Quran, Hadiths, Prayer time, Duas, Islamic QAs, Articles, Lectures, Books, Zakat calculator, and so many features. Built with Node, Express, MySQL, and Angular. Responsible for front-end design, payment integration (bKash, Nagad, AmarPay), and back-end API development and optimization.",
+      "A comprehensive Islamic website offering Quran, Hadiths, Prayer time, Dua, Islamic QA, Articles, Lectures, Books, Islamic matrimony, Featured Products, Zakat calculator and so many features. Built with Node, Express, MySQL, Redis, JWT, and Next.js. Responsible for front-end design, payment integration (bKash, Nagad, SSLCOMMERZ), and back-end API development and optimization.",
     image:
       "https://github.com/hasancsecu/portfolio/blob/main/src/images/muslimbangla.png?raw=true",
     tags: [
