@@ -404,7 +404,7 @@ export const projects = [
       "MySQL",
       "PostgreSQL",
       "Sequelize",
-      "Angular",
+      "Next.js",
       "Payment Gateway",
       "Meilisearch",
       "Redis",
