@@ -42,7 +42,7 @@ const Navbar = () => {
           className="text-xl md:text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
         >
           <span className="text-purple-600 flex items-center gap-1">
-            <DiCssdeck size="2.5rem" /> Portfolio
+            <DiCssdeck size="2.5rem" /> Hasan
           </span>
         </a>
         {/* Desktop Menu */}
