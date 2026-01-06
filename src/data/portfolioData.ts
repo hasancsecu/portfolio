@@ -128,6 +128,10 @@ export const skills = [
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/typeorm.svg?raw=true',
       },
       {
+        name: 'Prisma',
+        image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/prisma.svg?raw=true',
+      },
+      {
         name: 'Entity Framework Core',
         image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/entity.png?raw=true',
       },
@@ -207,7 +211,7 @@ export const experiences = [
     role: 'Senior Software Engineer',
     company: 'TopOfStack Software Ltd.',
     link: 'https://topofstacksoftware.com/',
-    date: 'Dec 2025 - Present',
+    date: 'Jan 2025 - Present',
     skills: [
       'Node.js',
       'Express.js',
