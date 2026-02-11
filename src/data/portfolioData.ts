@@ -236,6 +236,15 @@ export const experiences = [
   },
   {
     id: 1,
+    img: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true',
+    role: 'Senior Frontend Engineer',
+    company: 'Dohatec New Media',
+    link: 'https://dohatec.com/',
+    date: 'Jan 2025 - Present',
+    skills: ['Angular', 'NgRx', 'PrimeNG', 'AG Grid', 'TradingView Charts', 'Chart.js', 'D3.js', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'Socket.io', 'Docker', 'Git', 'Gitlab', 'Postman'],
+  },
+  {
+    id: 2,
     img: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/devxhub.webp?raw=true',
     role: 'Software Engineer (II)',
     company: 'Devxhub Pvt. Ltd.',
@@ -268,7 +277,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/dohatec.jpeg?raw=true',
     role: 'Software Engineer',
     company: 'Dohatec New Media',
@@ -277,7 +286,7 @@ export const experiences = [
     skills: ['Angular', 'NgRx', 'PrimeNG', 'PrimeFlex', 'AG Grid', 'TradingView Charts', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'Socket.io', 'Docker', 'Git', 'Gitlab', 'Postman'],
   },
   {
-    id: 3,
+    id: 4,
     img: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/tos.png?raw=true',
     role: 'Software Engineer',
     company: 'TopOfStack Software Ltd.',
