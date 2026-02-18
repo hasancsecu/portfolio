@@ -1,6 +1,6 @@
-import { educations } from "@/data/portfolioData";
-import { motion } from "framer-motion";
-import { GraduationCap } from "lucide-react";
+import { educations } from '@/data/portfolioData';
+import { motion } from 'framer-motion';
+import { GraduationCap } from 'lucide-react';
 
 const Education = () => {
   return (
@@ -33,34 +33,22 @@ const Education = () => {
                   <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                     <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center mb-4">
                       <div className="w-16 h-16 rounded-full overflow-hidden bg-white flex-shrink-0">
-                        <img
-                          src={education.img}
-                          alt={education.school}
-                          className="w-full h-full object-contain"
-                        />
+                        <img src={education.img} alt={education.school} className="w-full h-full object-contain" />
                       </div>
 
                       <div className="flex-grow">
-                        <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                          {education.school}
-                        </h3>
-                        <p className="text-purple-600 dark:text-purple-400 font-medium">
-                          {education.degree}
-                        </p>
+                        <h3 className="text-xl font-bold text-gray-900 dark:text-white">{education.school}</h3>
+                        <p className="text-purple-600 dark:text-purple-400 font-medium">{education.degree}</p>
                         <div className="flex flex-wrap justify-between gap-3">
-                          <span className="text-sm text-gray-500 dark:text-gray-400 uppercase">
-                            {education.date}
-                          </span>
-                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                          <span className="text-sm text-gray-500 dark:text-gray-400 uppercase">{education.date}</span>
+                          {/* <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                             {education.grade}
-                          </span>
+                          </span> */}
                         </div>
                       </div>
                     </div>
 
-                    <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">
-                      {education.desc}
-                    </p>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">{education.desc}</p>
                   </div>
                 </div>
               </div>

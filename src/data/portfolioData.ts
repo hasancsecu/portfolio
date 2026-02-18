@@ -407,15 +407,15 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'HICNY (Hillside Islamic Center)',
-    date: 'Jun 2023 - Mar 2024',
+    title: 'MATIS',
+    date: 'Sep 2025 - Dec 2025',
     description:
-      'A non-profit Islamic center providing religious, educational, and community services, including youth programs, outreach, and daily prayers. Built with Nest.js, PostgreSQL, Redis, JWT, Strapi, and Next.js. Responsible for front-end design, payment integration, and back-end API development and optimization.',
-    image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/hicny.png?raw=true',
-    tags: ['Node.Js', 'Nest.Js', 'PostgreSQL', 'Strapi', 'Next.js', 'Redux'],
-    category: 'fullstack',
-    github: 'https://gitlab.com/imtiaztos/hicny',
-    webapp: 'https://hicny.org/',
+      'Contributed to the front-end development of a high-precision web platform for art authentication using advanced multispectral imaging. Built responsive, data-intensive UI modules and interactive visualizations using Angular, NgRx, and PrimeNG, ensuring seamless performance and intuitive user experience for expert analysis workflows.',
+    image: 'https://github.com/hasancsecu/portfolio/blob/main/src/images/matis.jpg?raw=true',
+    tags: ['Angular', 'RxJs', 'NgRx', 'Socket.io', 'Docker'],
+    category: 'frontend',
+    github: 'https://matis.art/',
+    webapp: 'https://matis.art/',
   },
   {
     id: 6,
