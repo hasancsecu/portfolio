@@ -211,7 +211,7 @@ export const experiences = [
     role: 'Senior Software Engineer',
     company: 'TopOfStack Software Ltd.',
     link: 'https://topofstacksoftware.com/',
-    date: 'Jan 2025 - Present',
+    date: 'Jan 2026 - Present',
     skills: [
       'Node.js',
       'Express.js',
@@ -240,7 +240,7 @@ export const experiences = [
     role: 'Senior Frontend Engineer',
     company: 'Dohatec New Media',
     link: 'https://dohatec.com/',
-    date: 'Jan 2025 - Present',
+    date: 'Jan 2026 - Present',
     skills: ['Angular', 'NgRx', 'PrimeNG', 'AG Grid', 'TradingView Charts', 'Chart.js', 'D3.js', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'Socket.io', 'Docker', 'Git', 'Gitlab', 'Postman'],
   },
   {
