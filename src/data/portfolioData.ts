@@ -14,7 +14,7 @@ export const Bio = {
     "Innovative Senior Software Engineer with 4+ years of experience engineering high-performance fintech platforms, real-time trading engines, applied AI systems, and modern enterprise web applications.<br /><br />Expert in Angular (Zoneless, Signals), Node.js/Nest.js, ASP.NET Core, and real-time frontend architectures (WebSockets, AG-Grid, TradingView). Collaborates closely with project leads in joint technical discussions, contributes suggestions, leads the frontend engineering team, and implements the UI parts across three PQcal phases—active deployment in Bangladesh, US-focused learning and development for PQcal Global, and planning for Malaysian market expansion—delivering resilient multi-platform ecosystems serving millions of users.",
   github: "https://github.com/hasancsecu",
   resume:
-    "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
+    "https://drive.google.com/file/d/1DGhJtoE7mANtMQbwLi0fWcWDrU5LzEpo/view?usp=sharing",
   linkedin: "https://linkedin.com/in/abu-tamanna-hasan-6a3469195/",
   facebook: "https://web.facebook.com/profile.php?id=61580125407574",
   portfolio: "https://hasancsecu.github.io/portfolio/",
