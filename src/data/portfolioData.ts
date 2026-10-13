@@ -17,7 +17,6 @@ export const Bio = {
     "https://drive.google.com/file/d/1t0kyqN8CvcYlM8GIc7ytVXXgP3lAtFcH/view?usp=drive_link",
   linkedin: "https://linkedin.com/in/abu-tamanna-hasan-6a3469195/",
   facebook: "https://web.facebook.com/profile.php?id=61580125407574",
-  skype: "https://join.skype.com/invite/AdNqwqRL2xbt",
   portfolio: "https://hasancsecu.github.io/portfolio/",
   stats: [
     { label: "Years Experience", value: "4+" },
@@ -27,36 +26,21 @@ export const Bio = {
   ],
 };
 
-export const sectionIds = [
-  "#about",
-  "#skills",
-  "#experience",
-  "#projects",
-  "#education",
-  "#contact",
-];
-
 export const skills = [
   {
     title: "Frontend Architecture",
     skills: [
       {
         name: "Angular (Zoneless, Signals)",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/angular.png?raw=true",
         iconName: "SiAngular",
       },
       {
         name: "RxJS",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/rxjs.svg?raw=true",
-        iconName: "RxJS",
+        iconName: "SiReactivex",
       },
       {
         name: "NgRx",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/ngrx.svg?raw=true",
-        iconName: "NgRx",
+        iconName: "SiNgrx",
       },
       {
         name: "AG-Grid",
@@ -68,51 +52,35 @@ export const skills = [
       },
       {
         name: "React.js",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/react.svg?raw=true",
         iconName: "SiReact",
       },
       {
         name: "Next.js",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/next.png?raw=true",
         iconName: "SiNextdotjs",
       },
       {
         name: "TypeScript",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/typescript.png?raw=true",
         iconName: "SiTypescript",
       },
       {
         name: "JavaScript",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/javascript.png?raw=true",
         iconName: "SiJavascript",
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/tailwind.svg?raw=true",
         iconName: "SiTailwindcss",
       },
       {
         name: "PrimeNG",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/primeng.svg?raw=true",
-        iconName: "PrimeNG",
+        iconName: "SiPrimeng",
       },
       {
         name: "Bootstrap",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/bootstrap.png?raw=true",
         iconName: "SiBootstrap",
       },
       {
         name: "HTML5 & CSS3",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/html.png?raw=true",
-        iconName: "HTML5",
+        iconName: "SiHtml5",
       },
     ],
   },
@@ -121,62 +89,42 @@ export const skills = [
     skills: [
       {
         name: "Node.js",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/node.svg?raw=true",
         iconName: "SiNodedotjs",
       },
       {
         name: "Express.js",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/express.png?raw=true",
         iconName: "SiExpress",
       },
       {
         name: "Nest.js",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/nest.svg?raw=true",
         iconName: "SiNestjs",
       },
       {
         name: "ASP.NET Core",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/dotnet.png?raw=true",
         iconName: "SiDotnet",
       },
       {
         name: "C#",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/c-sharp.png?raw=true",
-        iconName: "CSharp",
+        iconName: "TbBrandCSharp",
       },
       {
         name: "RESTful API",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/rest-api.svg?raw=true",
-        iconName: "API",
+        iconName: "TbApi",
       },
       {
         name: "GraphQL",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/graphql.svg?raw=true",
         iconName: "SiGraphql",
       },
       {
         name: "Redis",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/redis.svg?raw=true",
         iconName: "SiRedis",
       },
       {
         name: "RabbitMQ",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/rabbitmq.svg?raw=true",
         iconName: "SiRabbitmq",
       },
       {
         name: "WebSockets & Socket.io",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/socket.png?raw=true",
         iconName: "SiSocketdotio",
       },
     ],
@@ -207,57 +155,39 @@ export const skills = [
     skills: [
       {
         name: "PostgreSQL",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/postgresql.png?raw=true",
         iconName: "SiPostgresql",
       },
       {
         name: "MySQL",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mysql.svg?raw=true",
         iconName: "SiMysql",
       },
       {
         name: "MSSQL",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sql-server.png?raw=true",
-        iconName: "MSSQL",
+        iconName: "DiMsqlServer",
       },
       {
         name: "MongoDB",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mongodb.svg?raw=true",
         iconName: "SiMongodb",
       },
       {
         name: "Prisma",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/prisma.svg?raw=true",
         iconName: "SiPrisma",
       },
       {
         name: "Entity Framework Core",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/entity.png?raw=true",
-        iconName: "EFCore",
+        iconName: "Database",
       },
       {
         name: "TypeORM",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/typeorm.svg?raw=true",
-        iconName: "TypeORM",
+        iconName: "SiTypeorm",
       },
       {
         name: "Sequelize",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/sequelize.png?raw=true",
-        iconName: "Sequelize",
+        iconName: "SiSequelize",
       },
       {
         name: "Mongoose",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/mongoose.png?raw=true",
-        iconName: "Mongoose",
+        iconName: "SiMongoose",
       },
     ],
   },
@@ -266,20 +196,14 @@ export const skills = [
     skills: [
       {
         name: "Docker",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/docker.svg?raw=true",
         iconName: "SiDocker",
       },
       {
         name: "Git / GitLab CI",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/gitlab.png?raw=true",
         iconName: "SiGitlab",
       },
       {
         name: "GitHub",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/github.png?raw=true",
         iconName: "SiGithub",
       },
       {
@@ -288,8 +212,6 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/postman.png?raw=true",
         iconName: "SiPostman",
       },
       {
@@ -302,8 +224,6 @@ export const skills = [
       },
       {
         name: "Jira",
-        image:
-          "https://github.com/hasancsecu/portfolio/blob/main/src/images/jira.png?raw=true",
         iconName: "SiJira",
       },
     ],

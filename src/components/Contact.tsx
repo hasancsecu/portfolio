@@ -68,7 +68,7 @@ const Contact = () => {
     setIsSubmitting(true);
     emailjs
       .sendForm(
-        "service_zs1rjeg",
+        "service_5a87zim",
         "template_e6tcmad",
         form.current,
         "EQlgGRSNE7AjI3ww9",
@@ -126,74 +126,76 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 lg:gap-12 items-start">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 lg:gap-12 items-stretch">
           {/* Contact Details Card */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
           >
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-              Get In Touch
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-8">
-              I am always excited to discuss distributed architectures,
-              high-performance web frontends, and applied AI systems.
-            </p>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                Get In Touch
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-8">
+                I am always excited to discuss distributed architectures,
+                high-performance web frontends, and applied AI systems.
+              </p>
 
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
-                  <Mail size={20} />
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                    <Mail size={20} />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
+                      Email Address
+                    </h4>
+                    <a
+                      href={`mailto:${Bio.email}`}
+                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    >
+                      {Bio.email}
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
-                    Email Address
-                  </h4>
-                  <a
-                    href={`mailto:${Bio.email}`}
-                    className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                  >
-                    {Bio.email}
-                  </a>
-                </div>
-              </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
-                  <Phone size={20} />
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                    <Phone size={20} />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
+                      Phone & WhatsApp
+                    </h4>
+                    <a
+                      href={`tel:${Bio.phone}`}
+                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    >
+                      {Bio.phone}
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
-                    Phone & WhatsApp
-                  </h4>
-                  <a
-                    href={`tel:${Bio.phone}`}
-                    className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                  >
-                    {Bio.phone}
-                  </a>
-                </div>
-              </div>
 
-              <div className="flex items-start gap-4">
-                <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
-                  <MapPin size={20} />
-                </div>
-                <div>
-                  <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
-                    Location
-                  </h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">
-                    {Bio.location}
-                  </p>
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                    <MapPin size={20} />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-gray-900 dark:text-white">
+                      Location
+                    </h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                      {Bio.location}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="mt-10 pt-6 border-t border-gray-100 dark:border-slate-700/60">
+            <div className="mt-8 pt-6 border-t border-gray-100 dark:border-slate-700/60">
               <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">
                 Connect on Social Networks:
               </h4>
@@ -244,75 +246,83 @@ const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
           >
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-              Send a Direct Message
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
-              Drop a note below and I will respond to your inquiry shortly.
-            </p>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                Send a Direct Message
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
+                Drop a note below and I will respond to your inquiry shortly.
+              </p>
+            </div>
 
-            <form ref={form} onSubmit={handleSubmit} className="space-y-5">
-              <div>
-                <label
-                  htmlFor="from_name"
-                  className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="from_name"
-                  name="from_name"
-                  value={formData.from_name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
-                  placeholder="e.g. John Doe"
-                />
-              </div>
+            <form
+              ref={form}
+              onSubmit={handleSubmit}
+              className="space-y-5 flex-1 flex flex-col justify-between"
+            >
+              <div className="space-y-5">
+                <div>
+                  <label
+                    htmlFor="from_name"
+                    className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
+                  >
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    id="from_name"
+                    name="from_name"
+                    value={formData.from_name}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
+                    placeholder="e.g. John Doe"
+                  />
+                </div>
 
-              <div>
-                <label
-                  htmlFor="from_email"
-                  className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
-                >
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  id="from_email"
-                  name="from_email"
-                  value={formData.from_email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
-                  placeholder="john@example.com"
-                />
-              </div>
+                <div>
+                  <label
+                    htmlFor="from_email"
+                    className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
+                  >
+                    Your Email
+                  </label>
+                  <input
+                    type="email"
+                    id="from_email"
+                    name="from_email"
+                    value={formData.from_email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
+                    placeholder="john@example.com"
+                  />
+                </div>
 
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
-                >
-                  Your Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={4}
-                  className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors resize-none"
-                  placeholder="Tell me about your project, team, or opportunity..."
-                ></textarea>
+                <div>
+                  <label
+                    htmlFor="message"
+                    className="block text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 mb-1.5"
+                  >
+                    Your Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={4}
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors resize-none"
+                    placeholder="Tell me about your project, team, or opportunity..."
+                  ></textarea>
+                </div>
               </div>
 
               {/* Submit Button & Floating Tooltip */}
-              <div className="relative pt-2">
+              <div className="relative pt-2 mt-auto">
                 {/* Floating Tooltip with Arrow (Success / Error) */}
                 <AnimatePresence>
                   {submitStatus.type && (

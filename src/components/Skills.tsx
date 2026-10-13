@@ -6,21 +6,22 @@ import {
   Sparkles,
   Cpu,
   Table,
-  Zap,
   Code2,
   Database,
-  Terminal,
-  Activity,
   Layers,
 } from "lucide-react";
 import {
   SiAngular,
+  SiReactivex,
+  SiNgrx,
   SiReact,
   SiNextdotjs,
   SiTypescript,
   SiJavascript,
   SiTailwindcss,
+  SiPrimeng,
   SiBootstrap,
+  SiHtml5,
   SiTradingview,
   SiNodedotjs,
   SiExpress,
@@ -34,6 +35,9 @@ import {
   SiMysql,
   SiMongodb,
   SiPrisma,
+  SiTypeorm,
+  SiSequelize,
+  SiMongoose,
   SiDocker,
   SiGitlab,
   SiGithub,
@@ -43,29 +47,46 @@ import {
   SiWebpack,
   SiJira,
 } from "react-icons/si";
-import { useState } from "react";
+import { TbBrandCSharp, TbApi } from "react-icons/tb";
+import { DiMsqlServer } from "react-icons/di";
 
 const iconMap: Record<string, React.ElementType> = {
   SiAngular,
+  SiReactivex,
+  SiNgrx,
+  Table,
+  SiTradingview,
   SiReact,
   SiNextdotjs,
   SiTypescript,
   SiJavascript,
   SiTailwindcss,
+  SiPrimeng,
   SiBootstrap,
-  SiTradingview,
+  SiHtml5,
   SiNodedotjs,
   SiExpress,
   SiNestjs,
   SiDotnet,
+  TbBrandCSharp,
+  TbApi,
   SiGraphql,
   SiRedis,
   SiRabbitmq,
   SiSocketdotio,
+  Sparkles,
+  Brain,
+  Bot,
+  Cpu,
   SiPostgresql,
   SiMysql,
+  DiMsqlServer,
   SiMongodb,
   SiPrisma,
+  Database,
+  SiTypeorm,
+  SiSequelize,
+  SiMongoose,
   SiDocker,
   SiGitlab,
   SiGithub,
@@ -74,27 +95,9 @@ const iconMap: Record<string, React.ElementType> = {
   SiVite,
   SiWebpack,
   SiJira,
-  Sparkles,
-  Brain,
-  Bot,
-  Cpu,
-  Table,
-  Zap,
-  Terminal,
-  Activity,
-  Database,
 };
 
-const SkillCard = ({
-  name,
-  image,
-  iconName,
-}: {
-  name: string;
-  image?: string;
-  iconName?: string;
-}) => {
-  const [imgError, setImgError] = useState(false);
+const SkillCard = ({ name, iconName }: { name: string; iconName?: string }) => {
   const IconComponent = iconName ? iconMap[iconName] : null;
 
   return (
@@ -104,14 +107,7 @@ const SkillCard = ({
       className="group bg-white dark:bg-slate-800/80 rounded-xl p-3.5 border border-gray-100 dark:border-slate-700/60 shadow-sm hover:shadow-md hover:border-purple-300 dark:hover:border-purple-600 transition-all flex flex-col items-center justify-center text-center gap-2.5"
     >
       <div className="w-11 h-11 rounded-lg bg-gray-50 dark:bg-slate-700/60 p-2 flex items-center justify-center text-purple-600 dark:text-purple-400 group-hover:bg-purple-50 dark:group-hover:bg-purple-950/40 group-hover:text-purple-600 transition-colors">
-        {image && !imgError ? (
-          <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-contain"
-            onError={() => setImgError(true)}
-          />
-        ) : IconComponent ? (
+        {IconComponent ? (
           <IconComponent className="w-6 h-6 text-purple-600 dark:text-purple-400 transition-transform group-hover:scale-110" />
         ) : (
           <Code2 className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -170,7 +166,6 @@ const Skills = () => {
                   <SkillCard
                     key={skillIdx}
                     name={skill.name}
-                    image={skill.image}
                     iconName={skill.iconName}
                   />
                 ))}

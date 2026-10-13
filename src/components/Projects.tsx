@@ -1,14 +1,7 @@
 import { useState } from "react";
 import { projects } from "@/data/portfolioData";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Github,
-  ExternalLink,
-  Sparkles,
-  Layers,
-  Calendar,
-  CheckCircle2,
-} from "lucide-react";
+import { Github, ExternalLink, Sparkles, Calendar } from "lucide-react";
 import {
   Dialog,
   DialogContent,
