@@ -39,11 +39,19 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a
           href="#"
-          className="text-xl md:text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
+          className="flex items-center gap-2 group"
         >
-          <span className="text-purple-600 flex items-center gap-1">
-            <DiCssdeck size="2.5rem" /> Hasan
+          <span className="text-purple-600 flex items-center">
+            <DiCssdeck size="2.4rem" className="group-hover:rotate-12 transition-transform" />
           </span>
+          <div className="flex flex-col text-left">
+            <span className="text-lg md:text-xl font-extrabold text-gray-900 dark:text-white leading-tight">
+              Hasan
+            </span>
+            <span className="text-[10px] font-bold tracking-wider text-purple-600 dark:text-purple-400 uppercase">
+              Senior Software Engineer
+            </span>
+          </div>
         </a>
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
