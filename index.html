@@ -30,8 +30,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/portfolio/assets/index-CB30Ukv8.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-Cu4nn5rz.css">
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var systemDark =
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (saved === "dark" || (!saved && systemDark)) {
+            document.documentElement.classList.add("dark");
+          } else {
+            document.documentElement.classList.remove("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="/portfolio/assets/index-DwfjFMil.js"></script>
+    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-tkNr8lh_.css">
   </head>
 
   <body>
