@@ -84,14 +84,67 @@ const About = () => {
                       <MapPin size={14} className="text-purple-500 shrink-0" />
                       <span>{Bio.location}</span>
                     </p>
-                    <p className="flex items-center gap-2">
+                    <a
+                      href={`mailto:${Bio.email}`}
+                      className="flex items-center gap-2 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    >
                       <Mail size={14} className="text-purple-500 shrink-0" />
                       <span>{Bio.email}</span>
-                    </p>
-                    <p className="flex items-center gap-2">
+                    </a>
+                    <a
+                      href={`tel:${Bio.phone}`}
+                      className="flex items-center gap-2 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                    >
                       <Phone size={14} className="text-purple-500 shrink-0" />
                       <span>{Bio.phone}</span>
-                    </p>
+                    </a>
+                  </div>
+
+                  {/* Social Links & Resume */}
+                  <div className="pt-3.5 mt-3.5 border-t border-gray-100 dark:border-slate-700/80 flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={Bio.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 rounded-lg bg-gray-100 dark:bg-slate-700/80 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white transition-all shadow-sm hover:scale-105"
+                        title="GitHub Profile"
+                        aria-label="GitHub Profile"
+                      >
+                        <Github size={15} />
+                      </a>
+                      <a
+                        href={Bio.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 rounded-lg bg-gray-100 dark:bg-slate-700/80 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 dark:hover:text-white transition-all shadow-sm hover:scale-105"
+                        title="LinkedIn Profile"
+                        aria-label="LinkedIn Profile"
+                      >
+                        <Linkedin size={15} />
+                      </a>
+                      <a
+                        href={Bio.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-8 h-8 rounded-lg bg-gray-100 dark:bg-slate-700/80 text-gray-700 dark:text-gray-300 flex items-center justify-center hover:bg-blue-700 hover:text-white dark:hover:bg-blue-700 dark:hover:text-white transition-all shadow-sm hover:scale-105"
+                        title="Facebook Profile"
+                        aria-label="Facebook Profile"
+                      >
+                        <Facebook size={15} />
+                      </a>
+                    </div>
+
+                    <a
+                      href={Bio.resume}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-purple-50 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 hover:bg-purple-600 hover:text-white dark:hover:bg-purple-600 dark:hover:text-white border border-purple-200/60 dark:border-purple-800/50 transition-colors shadow-sm"
+                      title="View Resume"
+                    >
+                      <span>Resume</span>
+                      <ExternalLink size={12} />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -140,49 +193,6 @@ const About = () => {
                   </p>
                 </div>
               ))}
-            </div>
-
-            {/* Social Link Action Buttons */}
-            <div className="flex flex-wrap gap-3 pt-3">
-              <a
-                href={Bio.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-gray-900 dark:bg-gray-800 hover:bg-gray-800 hover:dark:bg-gray-700 text-white rounded-lg text-sm font-medium transition-all shadow-sm"
-              >
-                <Github size={16} />
-                GitHub
-              </a>
-
-              <a
-                href={Bio.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition-all shadow-sm"
-              >
-                <Linkedin size={16} />
-                LinkedIn
-              </a>
-
-              <a
-                href={Bio.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-lg text-sm font-medium transition-all shadow-sm"
-              >
-                <Facebook size={16} />
-                Facebook
-              </a>
-
-              <a
-                href={Bio.resume}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-sm font-medium transition-all shadow-sm"
-              >
-                <ExternalLink size={16} />
-                Resume
-              </a>
             </div>
           </motion.div>
         </div>
