@@ -30,19 +30,19 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed top-0 w-full z-50 transition-all duration-300 ease-in-out",
+        "fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ease-in-out",
         scrolled
           ? "bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm shadow-md py-2"
-          : "bg-transparent py-4"
+          : "bg-transparent py-4",
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a
-          href="#"
-          className="flex items-center gap-2 group"
-        >
+        <a href="#" className="flex items-center gap-2 group">
           <span className="text-purple-600 flex items-center">
-            <DiCssdeck size="2.4rem" className="group-hover:rotate-12 transition-transform" />
+            <DiCssdeck
+              size="2.4rem"
+              className="group-hover:rotate-12 transition-transform"
+            />
           </span>
           <div className="flex flex-col text-left">
             <span className="text-lg md:text-xl font-extrabold text-gray-900 dark:text-white leading-tight">
@@ -118,7 +118,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-white dark:bg-slate-900 shadow-md transition-all duration-300 ease-in-out ${
+        className={`md:hidden absolute top-full left-0 right-0 w-full bg-white dark:bg-slate-900 shadow-md transition-all duration-300 ease-in-out ${
           isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0 invisible"
         } overflow-hidden`}
       >

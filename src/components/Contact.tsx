@@ -108,7 +108,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors"
+      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
@@ -129,11 +129,11 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 lg:gap-12 items-stretch">
           {/* Contact Details Card */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -242,11 +242,11 @@ const Contact = () => {
 
           {/* Contact Form Card */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">

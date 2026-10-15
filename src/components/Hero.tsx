@@ -16,7 +16,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[92vh] flex flex-col justify-center items-center text-center px-4 pt-28 pb-16 bg-gradient-to-b from-purple-50/50 via-white to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-900 overflow-hidden">
+    <section className="relative min-h-[92vh] flex flex-col justify-center items-center text-center px-4 pt-28 pb-16 bg-gradient-to-b from-purple-50/50 via-white to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-900 overflow-hidden isolate">
       {/* Background ambient glow & pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.035] dark:opacity-[0.05] pointer-events-none"></div>
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-500/10 dark:bg-purple-600/15 rounded-full blur-3xl pointer-events-none -z-10"></div>

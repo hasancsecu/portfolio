@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-20 bg-white dark:bg-slate-900 transition-colors"
+      className="py-20 bg-white dark:bg-slate-900 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}

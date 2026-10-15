@@ -18,17 +18,28 @@ export const useTheme = () => {
   return context;
 };
 
+const getSystemTheme = (): Theme => {
+  if (
+    typeof window !== "undefined" &&
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  ) {
+    return "dark";
+  }
+  return "light";
+};
+
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window === "undefined") return "light";
     const savedTheme = localStorage.getItem("theme") as Theme | null;
-    if (!savedTheme) {
-      return "light";
+    if (savedTheme === "light" || savedTheme === "dark") {
+      return savedTheme;
     }
-    return savedTheme;
+    return getSystemTheme();
   });
 
   useEffect(() => {
-    localStorage.setItem("theme", theme);
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -36,8 +47,30 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     }
   }, [theme]);
 
+  // Dynamically respond to system theme changes when user has no manual override saved
+  useEffect(() => {
+    if (typeof window === "undefined" || !window.matchMedia) return;
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const handleSystemThemeChange = (e: MediaQueryListEvent) => {
+      const savedTheme = localStorage.getItem("theme");
+      if (!savedTheme) {
+        setTheme(e.matches ? "dark" : "light");
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleSystemThemeChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleSystemThemeChange);
+    };
+  }, []);
+
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    setTheme((prevTheme) => {
+      const nextTheme = prevTheme === "light" ? "dark" : "light";
+      localStorage.setItem("theme", nextTheme);
+      return nextTheme;
+    });
   };
 
   return (
@@ -52,10 +85,11 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-slate-800 transition-colors"
+      className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-slate-800 transition-colors text-gray-700 dark:text-gray-300"
       aria-label={
         theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
       }
+      title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
     >
       {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
     </button>

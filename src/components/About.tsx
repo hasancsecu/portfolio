@@ -41,7 +41,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-white dark:bg-slate-900 transition-colors"
+      className="py-20 bg-white dark:bg-slate-900 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
@@ -58,8 +58,8 @@ const About = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Photo & Quick Contact Card */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="md:col-span-5 flex flex-col items-center"
@@ -100,10 +100,10 @@ const About = () => {
 
           {/* Detailed Narrative & Pillars */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             className="md:col-span-7 space-y-6"
           >
             <div>

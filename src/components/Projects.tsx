@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors"
+      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
@@ -54,7 +54,7 @@ const Projects = () => {
 
         {/* Category Filter Pills */}
         <div className="flex justify-center mb-12">
-          <div className="inline-flex flex-wrap justify-center gap-1.5 p-1.5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700">
+          <div className="inline-flex flex-wrap justify-center gap-1.5 p-1.5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 max-w-full">
             {categories.map((category) => (
               <button
                 key={category.id}

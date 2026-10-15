@@ -266,7 +266,7 @@ export const experiences = [
     img: "https://github.com/hasancsecu/portfolio/blob/main/src/images/devxhub.webp?raw=true",
     role: "Software Engineer (II)",
     company: "Devxhub Pvt. Ltd.",
-    location: "Dhaka, Bangladesh",
+    location: "Remote",
     link: "http://devxhub.com/",
     date: "Sep 2025 – Dec 2025",
     desc: [

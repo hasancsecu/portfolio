@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -11,15 +10,17 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="bg-white dark:bg-slate-900">
+    <div className="bg-white dark:bg-slate-900 min-h-screen w-full max-w-full overflow-x-hidden relative">
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Contact />
+      <main className="w-full max-w-full overflow-x-hidden">
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

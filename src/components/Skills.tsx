@@ -124,7 +124,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-20 bg-gray-50/70 dark:bg-slate-800/50 transition-colors"
+      className="py-20 bg-gray-50/70 dark:bg-slate-800/50 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
