@@ -421,7 +421,7 @@ export const projects = [
     description:
       "Currently in active learning and development phase focusing on the US market. Led the frontend team as Senior Frontend Engineer in close collaboration with project leads to architect real-time data feeds and integrated AI market intelligence tools, sentiment analysis, and intelligent market depth scanners.",
     image:
-      "https://github.com/hasancsecu/portfolio/blob/main/src/images/pqcal.png?raw=true",
+      "https://github.com/hasancsecu/portfolio/blob/main/src/images/pqcal-global.png?raw=true",
     tags: [
       "Angular",
       "Signals",
@@ -435,8 +435,8 @@ export const projects = [
     category: "ai",
     featured: true,
     stats: "US Market Intelligence & AI",
-    github: "https://repo.dohatec.com.bd/DohaSecuritiesOMS/web-ui",
-    webapp: "https://pqcal.dohasecurities.com.bd/",
+    github: "https://repo.dohatec.com.bd/DohaSecuritiesOMS/pqci-web-app",
+    webapp: "https://pqcal.com/",
   },
   {
     id: 2,
