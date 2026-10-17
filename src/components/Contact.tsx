@@ -108,18 +108,19 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors relative overflow-hidden"
+      className="py-20 bg-gray-50/70 dark:bg-zinc-950 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-block px-3 py-1 mb-2 text-xs font-semibold uppercase tracking-wider text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-950/60 rounded-full">
+          <div className="inline-block px-3 py-1 mb-2 text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/60 rounded-full">
             Let's Connect
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-            Contact <span className="text-purple-600">Me</span>
+            Contact{" "}
+            <span className="text-emerald-600 dark:text-emerald-400">Me</span>
           </h2>
-          <div className="h-1 w-20 bg-purple-600 mx-auto mt-4 rounded-full"></div>
+          <div className="h-1 w-20 bg-emerald-600 dark:bg-emerald-500 mx-auto mt-4 rounded-full"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mt-4 text-sm sm:text-base">
             Feel free to reach out for high-impact engineering leadership,
             consulting, or fintech & AI collaborations!
@@ -133,7 +134,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            className="h-full flex flex-col justify-between bg-white dark:bg-zinc-900/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-zinc-800"
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -146,7 +147,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                  <div className="bg-emerald-100 dark:bg-emerald-950/60 p-3 rounded-xl text-emerald-600 dark:text-emerald-400 shrink-0">
                     <Mail size={20} />
                   </div>
                   <div>
@@ -155,7 +156,7 @@ const Contact = () => {
                     </h4>
                     <a
                       href={`mailto:${Bio.email}`}
-                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
                     >
                       {Bio.email}
                     </a>
@@ -163,7 +164,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                  <div className="bg-emerald-100 dark:bg-emerald-950/60 p-3 rounded-xl text-emerald-600 dark:text-emerald-400 shrink-0">
                     <Phone size={20} />
                   </div>
                   <div>
@@ -172,7 +173,7 @@ const Contact = () => {
                     </h4>
                     <a
                       href={`tel:${Bio.phone}`}
-                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+                      className="text-sm text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
                     >
                       {Bio.phone}
                     </a>
@@ -180,7 +181,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-purple-100 dark:bg-purple-950/60 p-3 rounded-xl text-purple-600 dark:text-purple-400 shrink-0">
+                  <div className="bg-emerald-100 dark:bg-emerald-950/60 p-3 rounded-xl text-emerald-600 dark:text-emerald-400 shrink-0">
                     <MapPin size={20} />
                   </div>
                   <div>
@@ -195,7 +196,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-gray-100 dark:border-slate-700/60">
+            <div className="mt-8 pt-6 border-t border-gray-100 dark:border-zinc-800">
               <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">
                 Connect on Social Networks:
               </h4>
@@ -204,7 +205,7 @@ const Contact = () => {
                   href={Bio.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 hover:dark:bg-gray-600 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
+                  className="bg-gray-900 dark:bg-zinc-800 hover:bg-gray-800 hover:dark:bg-zinc-700 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
                   title="GitHub"
                 >
                   <Github size={18} />
@@ -213,7 +214,7 @@ const Contact = () => {
                   href={Bio.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105 shadow-emerald-600/20"
                   title="LinkedIn"
                 >
                   <Linkedin size={18} />
@@ -222,7 +223,7 @@ const Contact = () => {
                   href={Bio.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-700 hover:bg-blue-800 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
+                  className="bg-teal-600 hover:bg-teal-700 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
                   title="Facebook"
                 >
                   <Facebook size={18} />
@@ -231,7 +232,7 @@ const Contact = () => {
                   href={Bio.portfolio}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-purple-600 hover:bg-purple-700 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
+                  className="bg-emerald-700 hover:bg-emerald-800 text-white p-3 rounded-xl transition-all shadow-sm hover:scale-105"
                   title="Portfolio"
                 >
                   <Globe size={18} />
@@ -246,7 +247,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="h-full flex flex-col justify-between bg-white dark:bg-slate-800/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-slate-700/60"
+            className="h-full flex flex-col justify-between bg-white dark:bg-zinc-900/90 p-6 sm:p-8 rounded-2xl shadow-md border border-gray-100 dark:border-zinc-800"
           >
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -277,7 +278,7 @@ const Contact = () => {
                     value={formData.from_name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-zinc-700/80 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 focus:border-emerald-500 bg-gray-50/50 dark:bg-zinc-950/70 text-gray-900 dark:text-gray-100 transition-colors"
                     placeholder="e.g. John Doe"
                   />
                 </div>
@@ -296,7 +297,7 @@ const Contact = () => {
                     value={formData.from_email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors"
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-zinc-700/80 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 focus:border-emerald-500 bg-gray-50/50 dark:bg-zinc-950/70 text-gray-900 dark:text-gray-100 transition-colors"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -315,7 +316,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-600 dark:focus:ring-purple-500 bg-gray-50/50 dark:bg-slate-900/60 text-gray-900 dark:text-gray-100 transition-colors resize-none"
+                    className="w-full px-4 py-2.5 text-sm border border-gray-200 dark:border-zinc-700/80 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 focus:border-emerald-500 bg-gray-50/50 dark:bg-zinc-950/70 text-gray-900 dark:text-gray-100 transition-colors resize-none"
                     placeholder="Tell me about your project, team, or opportunity..."
                   ></textarea>
                 </div>
@@ -378,7 +379,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full px-6 py-3.5 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 transition-all shadow-md hover:shadow-lg disabled:bg-purple-400 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                  className="w-full px-6 py-3.5 bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-all shadow-md hover:shadow-lg hover:shadow-emerald-600/20 disabled:bg-emerald-400 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? (
                     <>

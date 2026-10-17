@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="bg-white dark:bg-slate-900 min-h-screen w-full max-w-full overflow-x-hidden relative">
+    <div className="bg-white dark:bg-zinc-950 min-h-screen w-full max-w-full overflow-x-hidden relative">
       <Navbar />
       <main className="w-full max-w-full overflow-x-hidden">
         <Hero />

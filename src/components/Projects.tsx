@@ -34,18 +34,21 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-20 bg-gray-50/70 dark:bg-slate-900 transition-colors relative overflow-hidden"
+      className="py-20 bg-gray-50/70 dark:bg-zinc-950 transition-colors relative overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-block px-3 py-1 mb-2 text-xs font-semibold uppercase tracking-wider text-purple-700 dark:text-purple-300 bg-purple-100 dark:bg-purple-950/60 rounded-full">
+          <div className="inline-block px-3 py-1 mb-2 text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/60 rounded-full">
             Featured Works & Architectures
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-            Featured <span className="text-purple-600">Projects</span>
+            Featured{" "}
+            <span className="text-emerald-600 dark:text-emerald-400">
+              Projects
+            </span>
           </h2>
-          <div className="h-1 w-20 bg-purple-600 mx-auto mt-4 rounded-full"></div>
+          <div className="h-1 w-20 bg-emerald-600 dark:bg-emerald-500 mx-auto mt-4 rounded-full"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mt-4 text-sm sm:text-base">
             High-performance trading portals, AI-powered intelligence tools,
             high-concurrency platforms serving millions of users.
@@ -54,14 +57,14 @@ const Projects = () => {
 
         {/* Category Filter Pills */}
         <div className="flex justify-center mb-12">
-          <div className="inline-flex flex-wrap justify-center gap-1.5 p-1.5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 max-w-full">
+          <div className="inline-flex flex-wrap justify-center gap-1.5 p-1.5 bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-gray-100 dark:border-zinc-800 max-w-full">
             {categories.map((category) => (
               <button
                 key={category.id}
                 className={`px-3.5 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all ${
                   activeCategory === category.id
-                    ? "bg-purple-600 text-white shadow-sm"
-                    : "bg-transparent text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-gray-50 dark:hover:bg-slate-700/50"
+                    ? "bg-emerald-600 text-white shadow-sm shadow-emerald-600/20"
+                    : "bg-transparent text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-zinc-800/60"
                 }`}
                 onClick={() => setActiveCategory(category.id)}
               >
@@ -82,15 +85,15 @@ const Projects = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ delay: index * 0.05, duration: 0.3 }}
-                className={`flex flex-col bg-white dark:bg-slate-800/90 rounded-2xl overflow-hidden border ${
+                className={`flex flex-col bg-white dark:bg-zinc-900/90 rounded-2xl overflow-hidden border ${
                   project.featured
-                    ? "border-purple-200 dark:border-purple-800/80 shadow-md ring-1 ring-purple-500/10"
-                    : "border-gray-100 dark:border-slate-700/60 shadow-sm"
-                } hover:shadow-xl hover:border-purple-300 dark:hover:border-purple-600 transition-all duration-300 group cursor-pointer`}
+                    ? "border-emerald-200 dark:border-emerald-800/70 shadow-md ring-1 ring-emerald-500/10"
+                    : "border-gray-100 dark:border-zinc-800 shadow-sm"
+                } hover:shadow-xl hover:border-emerald-300 dark:hover:border-emerald-500 transition-all duration-300 group cursor-pointer`}
                 onClick={() => setSelectedProject(project)}
               >
                 {/* Image Cover */}
-                <div className="h-48 sm:h-52 relative overflow-hidden bg-gray-100 dark:bg-slate-700">
+                <div className="h-48 sm:h-52 relative overflow-hidden bg-gray-100 dark:bg-zinc-800">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -103,13 +106,13 @@ const Projects = () => {
                   {/* Top Badges */}
                   <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 pointer-events-none">
                     {project.featured && (
-                      <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full bg-purple-600/90 backdrop-blur-md text-white shadow-sm">
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-600/90 backdrop-blur-md text-white shadow-sm">
                         <Sparkles size={11} />
                         Featured
                       </span>
                     )}
                     {project.stats && (
-                      <span className="ml-auto inline-flex items-center text-[11px] font-bold px-2.5 py-1 rounded-full bg-slate-900/85 backdrop-blur-md text-purple-300 shadow-sm">
+                      <span className="ml-auto inline-flex items-center text-[11px] font-bold px-2.5 py-1 rounded-full bg-zinc-950/85 backdrop-blur-md text-emerald-300 shadow-sm border border-emerald-900/30">
                         {project.stats}
                       </span>
                     )}
@@ -140,7 +143,7 @@ const Projects = () => {
                           href={project.webapp}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-purple-600 hover:bg-purple-700 text-white p-2 rounded-full transition-colors"
+                          className="bg-emerald-600 hover:bg-emerald-700 text-white p-2 rounded-full transition-colors"
                           title="Live Demo"
                         >
                           <ExternalLink size={16} />
@@ -153,7 +156,7 @@ const Projects = () => {
                 {/* Card Body */}
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-xs uppercase font-bold tracking-wider text-purple-600 dark:text-purple-400">
+                    <span className="text-xs uppercase font-bold tracking-wider text-emerald-600 dark:text-emerald-400">
                       {project.category}
                     </span>
                     <span className="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1">
@@ -162,7 +165,7 @@ const Projects = () => {
                     </span>
                   </div>
 
-                  <h3 className="text-lg font-bold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors line-clamp-1 mb-1">
+                  <h3 className="text-lg font-bold text-gray-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors line-clamp-1 mb-1">
                     {project.title}
                   </h3>
 
@@ -177,17 +180,17 @@ const Projects = () => {
                   </p>
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-1.5 mt-auto pt-3 border-t border-gray-100 dark:border-slate-700/50">
+                  <div className="flex flex-wrap gap-1.5 mt-auto pt-3 border-t border-gray-100 dark:border-zinc-800">
                     {project.tags.slice(0, 4).map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="text-[11px] font-medium bg-purple-50 dark:bg-purple-950/40 text-purple-700 dark:text-purple-300 px-2 py-0.5 rounded-md"
+                        className="text-[11px] font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-200/50 dark:border-emerald-800/40"
                       >
                         {tag}
                       </span>
                     ))}
                     {project.tags.length > 4 && (
-                      <span className="text-[11px] font-medium bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-gray-400 px-2 py-0.5 rounded-md">
+                      <span className="text-[11px] font-medium bg-gray-100 dark:bg-zinc-800 text-gray-600 dark:text-gray-400 px-2 py-0.5 rounded-md">
                         +{project.tags.length - 4}
                       </span>
                     )}
@@ -205,10 +208,10 @@ const Projects = () => {
         onOpenChange={(open) => !open && setSelectedProject(null)}
       >
         {selectedProject && (
-          <DialogContent className="sm:max-w-2xl max-h-[90vh] overflow-y-auto bg-white dark:bg-slate-900 p-6 sm:p-8 rounded-2xl border border-gray-200 dark:border-slate-800">
+          <DialogContent className="sm:max-w-2xl max-h-[90vh] overflow-y-auto bg-white dark:bg-zinc-950 p-6 sm:p-8 rounded-2xl border border-gray-200 dark:border-zinc-800">
             <DialogHeader>
               <div className="flex items-center gap-2 mb-1">
-                <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300">
+                <span className="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300">
                   {selectedProject.category}
                 </span>
                 {selectedProject.stats && (
@@ -223,7 +226,7 @@ const Projects = () => {
             </DialogHeader>
 
             <div className="mt-4 space-y-6">
-              <div className="w-full h-56 sm:h-72 rounded-xl overflow-hidden bg-gray-100 dark:bg-slate-800 border border-gray-100 dark:border-slate-700">
+              <div className="w-full h-56 sm:h-72 rounded-xl overflow-hidden bg-gray-100 dark:bg-zinc-900 border border-gray-100 dark:border-zinc-800">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
@@ -253,7 +256,7 @@ const Projects = () => {
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="bg-purple-100 dark:bg-purple-950/60 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-lg text-xs font-semibold"
+                      className="bg-emerald-100/80 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300 px-3 py-1 rounded-lg text-xs font-semibold border border-emerald-200/50 dark:border-emerald-800/40"
                     >
                       {tag}
                     </span>
@@ -261,13 +264,13 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="flex flex-wrap gap-3 pt-4 border-t border-gray-100 dark:border-slate-800">
+              <div className="flex flex-wrap gap-3 pt-4 border-t border-gray-100 dark:border-zinc-800">
                 {selectedProject.github && (
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 min-w-[140px] px-4 py-2.5 bg-gray-900 dark:bg-gray-800 hover:bg-gray-800 hover:dark:bg-gray-700 text-white rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition-all shadow-sm"
+                    className="flex-1 min-w-[140px] px-4 py-2.5 bg-gray-900 dark:bg-zinc-800 hover:bg-gray-800 hover:dark:bg-zinc-700 text-white rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition-all shadow-sm"
                   >
                     <Github size={16} />
                     <span>View Code</span>
@@ -278,7 +281,7 @@ const Projects = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 min-w-[140px] px-4 py-2.5 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition-all shadow-sm"
+                    className="flex-1 min-w-[140px] px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition-all shadow-sm shadow-emerald-600/20"
                   >
                     <ExternalLink size={16} />
                     <span>Live Platform</span>
