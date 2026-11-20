@@ -34,7 +34,7 @@ const About = () => {
     {
       icon: Server,
       title: "Resilient Distributed Backends",
-      desc: "Engineered scalable microservices in Java/Spring Boot and Node.js/Nest.js with Redis caching, RabbitMQ/Kafka event streaming, and secure payment gateways.",
+      desc: "Engineered scalable microservices in Node.js/Nest.js, Java/Spring Boot, and Python/FastAPI with Redis caching, RabbitMQ/Kafka event streaming, and secure payment gateways.",
     },
   ];
 
@@ -50,7 +50,8 @@ const About = () => {
             Background & Expertise
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-            About <span className="text-emerald-600 dark:text-emerald-400">Me</span>
+            About{" "}
+            <span className="text-emerald-600 dark:text-emerald-400">Me</span>
           </h2>
           <div className="h-1 w-20 bg-emerald-600 dark:bg-emerald-500 mx-auto mt-4 rounded-full"></div>
         </div>
