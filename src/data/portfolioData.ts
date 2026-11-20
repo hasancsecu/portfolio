@@ -96,10 +96,6 @@ export const skills = [
         iconName: "SiSpringboot",
       },
       {
-        name: "Hibernate",
-        iconName: "SiHibernate",
-      },
-      {
         name: "Kafka",
         iconName: "SiApachekafka",
       },
