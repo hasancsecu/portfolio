@@ -34,7 +34,7 @@ const About = () => {
     {
       icon: Server,
       title: "Resilient Distributed Backends",
-      desc: "Engineered scalable microservices in Node.js/Nest.js and ASP.NET Core with Redis caching, RabbitMQ queues, and secure payment gateways.",
+      desc: "Engineered scalable microservices in Java/Spring Boot and Node.js/Nest.js with Redis caching, RabbitMQ/Kafka event streaming, and secure payment gateways.",
     },
   ];
 

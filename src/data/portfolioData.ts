@@ -9,9 +9,9 @@ export const Bio = {
   phone: "+880 1950379818",
   email: "hasansouravcsecu@gmail.com",
   description:
-    "Innovative Senior Software Engineer with 4+ years of experience engineering high-performance fintech platforms, real-time trading engines, applied AI systems, and modern enterprise web applications. Expert in Angular (Zoneless, Signals), Node.js/Nest.js, ASP.NET Core, and real-time frontend architectures (WebSockets, AG-Grid, TradingView). Collaborating closely with project leads, leading frontend engineering teams, and delivering resilient multi-platform ecosystems serving millions of users.",
+    "Innovative Senior Software Engineer with 4+ years of experience engineering high-performance fintech platforms, real-time trading engines, applied AI systems, and modern enterprise web applications. Expert in Angular (Zoneless, Signals), Node.js/Nest.js, Java, Spring Boot, and real-time frontend architectures (WebSockets, AG-Grid, TradingView). Collaborating closely with project leads, leading frontend engineering teams, and delivering resilient multi-platform ecosystems serving millions of users.",
   about:
-    "Innovative Senior Software Engineer with 4+ years of experience engineering high-performance fintech platforms, real-time trading engines, applied AI systems, and modern enterprise web applications.<br /><br />Expert in Angular (Zoneless, Signals), Node.js/Nest.js, ASP.NET Core, and real-time frontend architectures (WebSockets, AG-Grid, TradingView). Collaborates closely with project leads in joint technical discussions, contributes suggestions, leads the frontend engineering team, and implements the UI parts across three PQcal phases—active deployment in Bangladesh, US-focused learning and development for PQcal Global, and planning for Malaysian market expansion—delivering resilient multi-platform ecosystems serving millions of users.",
+    "Innovative Senior Software Engineer with 4+ years of experience engineering high-performance fintech platforms, real-time trading engines, applied AI systems, and modern enterprise web applications.<br /><br />Expert in Angular (Zoneless, Signals), Node.js/Nest.js, Java, Spring Boot, and real-time frontend architectures (WebSockets, AG-Grid, TradingView). Collaborates closely with project leads in joint technical discussions, contributes suggestions, leads the frontend engineering team, and implements the UI parts across three PQcal phases—active deployment in Bangladesh, US-focused learning and development for PQcal Global, and planning for Malaysian market expansion—delivering resilient multi-platform ecosystems serving millions of users.",
   github: "https://github.com/hasancsecu",
   resume:
     "https://drive.google.com/file/d/1DGhJtoE7mANtMQbwLi0fWcWDrU5LzEpo/view?usp=sharing",
@@ -88,6 +88,26 @@ export const skills = [
     title: "Backend & Real-Time Systems",
     skills: [
       {
+        name: "Java",
+        iconName: "FaJava",
+      },
+      {
+        name: "Spring Boot",
+        iconName: "SiSpringboot",
+      },
+      {
+        name: "Hibernate",
+        iconName: "SiHibernate",
+      },
+      {
+        name: "Kafka",
+        iconName: "SiApachekafka",
+      },
+      {
+        name: "RabbitMQ",
+        iconName: "SiRabbitmq",
+      },
+      {
         name: "Node.js",
         iconName: "SiNodedotjs",
       },
@@ -100,14 +120,6 @@ export const skills = [
         iconName: "SiNestjs",
       },
       {
-        name: "ASP.NET Core",
-        iconName: "SiDotnet",
-      },
-      {
-        name: "C#",
-        iconName: "TbBrandCSharp",
-      },
-      {
         name: "RESTful API",
         iconName: "TbApi",
       },
@@ -118,10 +130,6 @@ export const skills = [
       {
         name: "Redis",
         iconName: "SiRedis",
-      },
-      {
-        name: "RabbitMQ",
-        iconName: "SiRabbitmq",
       },
       {
         name: "WebSockets & Socket.io",
@@ -174,8 +182,8 @@ export const skills = [
         iconName: "SiPrisma",
       },
       {
-        name: "Entity Framework Core",
-        iconName: "Database",
+        name: "Hibernate",
+        iconName: "SiHibernate",
       },
       {
         name: "TypeORM",

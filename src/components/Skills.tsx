@@ -26,7 +26,9 @@ import {
   SiNodedotjs,
   SiExpress,
   SiNestjs,
-  SiDotnet,
+  SiSpringboot,
+  SiHibernate,
+  SiApachekafka,
   SiGraphql,
   SiRedis,
   SiRabbitmq,
@@ -47,7 +49,8 @@ import {
   SiWebpack,
   SiJira,
 } from "react-icons/si";
-import { TbBrandCSharp, TbApi } from "react-icons/tb";
+import { TbApi } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
 import { DiMsqlServer } from "react-icons/di";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -64,11 +67,13 @@ const iconMap: Record<string, React.ElementType> = {
   SiPrimeng,
   SiBootstrap,
   SiHtml5,
+  FaJava,
+  SiSpringboot,
+  SiHibernate,
+  SiApachekafka,
   SiNodedotjs,
   SiExpress,
   SiNestjs,
-  SiDotnet,
-  TbBrandCSharp,
   TbApi,
   SiGraphql,
   SiRedis,
