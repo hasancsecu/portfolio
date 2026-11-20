@@ -31,7 +31,7 @@ export const skills = [
     title: "Frontend Architecture",
     skills: [
       {
-        name: "Angular",
+        name: "Angular (Zoneless, Signals)",
         iconName: "SiAngular",
       },
       {
@@ -75,8 +75,8 @@ export const skills = [
         iconName: "SiPrimeng",
       },
       {
-        name: "Bootstrap",
-        iconName: "SiBootstrap",
+        name: "HTML5 & CSS3",
+        iconName: "SiHtml5",
       },
     ],
   },
