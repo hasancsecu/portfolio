@@ -31,7 +31,7 @@ export const skills = [
     title: "Frontend Architecture",
     skills: [
       {
-        name: "Angular (Zoneless, Signals)",
+        name: "Angular",
         iconName: "SiAngular",
       },
       {
@@ -41,14 +41,6 @@ export const skills = [
       {
         name: "NgRx",
         iconName: "SiNgrx",
-      },
-      {
-        name: "AG-Grid",
-        iconName: "Table",
-      },
-      {
-        name: "TradingView Charts",
-        iconName: "SiTradingview",
       },
       {
         name: "React.js",
@@ -71,16 +63,20 @@ export const skills = [
         iconName: "SiTailwindcss",
       },
       {
+        name: "AG-Grid",
+        iconName: "Table",
+      },
+      {
+        name: "TradingView Charts",
+        iconName: "SiTradingview",
+      },
+      {
         name: "PrimeNG",
         iconName: "SiPrimeng",
       },
       {
         name: "Bootstrap",
         iconName: "SiBootstrap",
-      },
-      {
-        name: "HTML5 & CSS3",
-        iconName: "SiHtml5",
       },
     ],
   },
@@ -94,14 +90,6 @@ export const skills = [
       {
         name: "Spring Boot",
         iconName: "SiSpringboot",
-      },
-      {
-        name: "Kafka",
-        iconName: "SiApachekafka",
-      },
-      {
-        name: "RabbitMQ",
-        iconName: "SiRabbitmq",
       },
       {
         name: "Node.js",
@@ -122,6 +110,14 @@ export const skills = [
       {
         name: "GraphQL",
         iconName: "SiGraphql",
+      },
+      {
+        name: "Kafka",
+        iconName: "SiApachekafka",
+      },
+      {
+        name: "RabbitMQ",
+        iconName: "SiRabbitmq",
       },
       {
         name: "Redis",
