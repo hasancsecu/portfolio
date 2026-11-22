@@ -1,59 +1,148 @@
-# My Portfolio
+<div align="center">
 
-Welcome to my portfolio! This project showcases my skills, projects, and experiences as a full-stack web developer.
+# Abu Tamanna Hasan — Portfolio
 
-### Weblink: [Live Website](https://hasancsecu.github.io/portfolio/)
+**Senior Software Engineer | Full-Stack & Applied AI Systems**
 
-## Table of Contents
+[![Live Demo](https://img.shields.io/badge/Live-Demo-emerald?style=for-the-badge&logo=githubpages&logoColor=white)](https://hasancsecu.github.io/portfolio/)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](https://www.framer.com/motion/)
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+<p align="center">
+  A high-performance, modern, and fully responsive personal portfolio web application built with <strong>React 18</strong>, <strong>TypeScript</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS</strong>.
+</p>
 
-## Introduction
+[View Live Site](https://hasancsecu.github.io/portfolio/) · [Report Bug](https://github.com/hasancsecu/portfolio/issues) · [Request Feature](https://github.com/hasancsecu/portfolio/issues)
 
-My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.
+</div>
 
-## Features
+---
 
-- About Me: An overview of my background, skills, and experiences.
-- Projects: A collection of my featured projects with descriptions, screenshots, and links.
-- Skills: A list of my technical skills and proficiencies.
-- Resume: A link to download my resume.
-- Contact: A form to send me messages or inquiries through email.
+## 📌 Overview
 
-## Technologies Used
+This repository powers the personal portfolio of **Abu Tamanna Hasan**, showcasing 4+ years of professional engineering experience across high-performance fintech platforms, real-time trading engines, applied AI pipelines, and modern distributed systems.
 
-- React.js: A JavaScript library for building user interfaces.
-- HTML5 & CSS3: Markup and styling languages for building web pages.
-- JavaScript: A programming language for adding interactivity to web applications.
-- Style-Components: A CSS framework for creating responsive and mobile-first designs.
-- Git: A version control system for tracking changes and collaborating on projects.
-- GitHub Pages: A platform for hosting and deploying web applications.
+### Key Highlights
+- ⚡ **Ultra-Fast Performance**: Built on Vite 5 with SWC compilation and optimized asset delivery.
+- 🎨 **Modern Design & Theming**: Dark/Light mode with smooth transitions, custom emerald accents, and glassmorphic UI components.
+- 📱 **Fully Responsive**: Mobile-first design optimized across mobile, tablet, and desktop viewports.
+- 📊 **Dynamic Project Showcase**: Interactive modal views and category filtering (Fintech, AI, Full-Stack, Frontend, Backend).
+- 🛠️ **Categorized Skills**: Visual matrix covering Frontend, Backend (Node.js &rarr; Java &rarr; Python ecosystems), AI & LLMs, Databases/ORMs, and DevOps.
+- ✉️ **Functional Contact Form**: Direct message delivery powered by EmailJS with form validation.
+- 🚀 **Zero-Config Deployment**: Automated SPA-compatible deployment script for GitHub Pages.
 
-## Installation
+---
 
-To run this portfolio locally, follow these steps:
+## 💻 Tech Stack
 
-1. Clone the repository: `git clone https://github.com/hasancsecu/portfolio.git`
-2. Navigate to the project directory: `cd portfolio`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm run dev`
-5. Open your browser and visit: `http://localhost:8080/portfolio/`
+### Frontend & Core
+- **Framework**: [React 18](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Bundler & Dev Server**: [Vite 5](https://vitejs.dev/) with `@vitejs/plugin-react-swc`
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) with `tailwindcss-animate`
+- **Component Primitives**: [Radix UI](https://www.radix-ui.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **State & Data Fetching**: [TanStack Query](https://tanstack.com/query)
+- **Forms**: [React Hook Form](https://react-hook-form.com/) with Zod validation
+- **Email Delivery**: [EmailJS](https://www.emailjs.com/)
 
-## Usage
+### Featured Engineering Proficiencies
+- **Frontend Architecture**: Angular (Zoneless, Signals), RxJS, NgRx, AG-Grid, TradingView Charts, React.js, Next.js, Tailwind CSS.
+- **Backend & Real-Time**: 
+  1. **Node.js**: Node.js, Express.js, Nest.js
+  2. **Java**: Java, Spring Boot, Hibernate
+  3. **Python**: Python, FastAPI
+  - *Distributed Tools*: RESTful API, GraphQL, Apache Kafka, RabbitMQ, Redis, WebSockets & Socket.io.
+- **AI & Data Integration**: Prompt Engineering, LLM API Utilization, Basic AI Model Integration, Sentiment Analysis.
+- **Databases & ORMs**: PostgreSQL, MySQL, MSSQL, MongoDB, Prisma, Hibernate, TypeORM, Sequelize, Mongoose.
+- **DevOps & Tooling**: Docker, GitLab CI/CD, GitHub Actions, Linux, Postman, Vite, Webpack, Jira.
 
-After installing and running the project locally, you can use the navigation menu to navigate through the different sections of the portfolio. Explore the About Me section to learn more about my background and skills. Visit the Projects section to see detailed information about my projects, including descriptions and screenshots. Use the Contact section to send me a message or inquiry.
+---
 
-## Contributing
+## 📂 Project Structure
 
-Contributions are welcome! If you'd like to contribute to My Portfolio, please follow these steps:
+```text
+portfolio/
+├── public/                 # Static assets and favicon
+├── src/
+│   ├── components/         # Reusable UI & section components
+│   │   ├── ui/             # Radix UI and Shadcn primitives
+│   │   ├── Navbar.tsx      # Responsive header with theme toggle
+│   │   ├── Hero.tsx        # Hero banner with call-to-actions
+│   │   ├── About.tsx       # Bio, stats, and key engineering highlights
+│   │   ├── Skills.tsx      # Categorized technical skill cards
+│   │   ├── Experience.tsx  # Interactive work history timeline
+│   │   ├── Projects.tsx    # Filterable project gallery & detail modals
+│   │   ├── Education.tsx   # Academic background
+│   │   ├── Contact.tsx     # EmailJS-backed inquiry form
+│   │   └── Footer.tsx      # Social links and copyright
+│   ├── data/
+│   │   └── portfolioData.ts# Centralized portfolio data (Bio, Skills, Projects, etc.)
+│   ├── images/             # Project screenshots, logos, and graphic assets
+│   ├── scripts/
+│   │   └── deploy.cjs      # GitHub Pages deploy script
+│   ├── App.tsx             # Main application layout & routes
+│   ├── index.css           # Global Tailwind styling & theme variables
+│   └── main.tsx            # Application entry point
+├── vite.config.ts          # Vite configuration & SPA fallback plugin
+├── tailwind.config.ts      # Tailwind CSS theme configuration
+└── package.json            # Dependencies and scripts
+```
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-feature`
-5. Open a pull request.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed (v18.0.0 or higher recommended) and `npm`.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/hasancsecu/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
+   Open your browser and navigate to `http://localhost:8080/portfolio/`.
+
+---
+
+## 🛠️ Available Scripts
+
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the Vite local development server on port `8080` with HMR |
+| `npm run build` | Compiles TypeScript and builds production-ready bundle into `dist/` |
+| `npm run preview` | Locally previews the production build |
+| `npm run lint` | Runs ESLint to check for code quality and syntax issues |
+| `npm run deploy` | Builds the project and deploys the `dist/` output directly to GitHub Pages |
+
+---
+
+## 📬 Contact & Connect
+
+- **Name**: Abu Tamanna Hasan
+- **Email**: [hasansouravcsecu@gmail.com](mailto:hasansouravcsecu@gmail.com)
+- **LinkedIn**: [linkedin.com/in/abu-tamanna-hasan-6a3469195](https://linkedin.com/in/abu-tamanna-hasan-6a3469195/)
+- **GitHub**: [@hasancsecu](https://github.com/hasancsecu)
+- **Website**: [hasancsecu.github.io/portfolio](https://hasancsecu.github.io/portfolio/)
+
+---
+
+<div align="center">
+  <sub>Designed & Developed by Abu Tamanna Hasan. All rights reserved.</sub>
+</div>
