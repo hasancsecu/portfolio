@@ -541,6 +541,32 @@ export const projects = [
   },
   {
     id: 6,
+    title: "Tayyib Foods",
+    subtitle: "Full-Stack Organic Food E-Commerce & Order Management Platform",
+    date: "Nov 2026 – Present",
+    description:
+      "A modern, full-stack organic grocery e-commerce and order management ecosystem developed with Next.js (App Router), PostgreSQL, and Prisma ORM. Engineered dynamic catalog browsing, real-time cart with zone-based delivery calculation (Inside/Outside Dhaka), passwordless user checkout with automatic account provisioning, JWT and OTP verification, transactional email notifications, and an advanced administrative control center for real-time order processing, inventory control, and customer management.",
+    image:
+      "https://github.com/hasancsecu/portfolio/blob/main/src/images/tayyib-foods.png?raw=true",
+    tags: [
+      "Next.js (App Router)",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Tailwind CSS",
+      "JWT Auth & OTP",
+      "RESTful APIs",
+      "Vercel Blob",
+      "Nodemailer",
+    ],
+    category: "fullstack",
+    featured: true,
+    stats: "Production E-Commerce Platform",
+    github: "https://github.com/hasancsecu/tayyib-foods",
+    webapp: "https://www.tayyib-foods.com/",
+  },
+  {
+    id: 7,
     title: "Muslim Dawah",
     subtitle: "Islamic Portal with Digital Contributions & E-Services",
     date: "Jan 2023 – Oct 2023",
@@ -562,7 +588,7 @@ export const projects = [
     webapp: "https://muslimdawah.org/",
   },
   {
-    id: 7,
+    id: 8,
     title: "United Garments Manufacturing",
     subtitle: "Industrial Order Management & Export Catalog Platform",
     date: "Feb 2022 – Oct 2022",
@@ -577,7 +603,7 @@ export const projects = [
     webapp: "https://www.unitedgarmentsmanufacturing.com/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Hadith Webview & Search Engine",
     subtitle: "High-Performance Mobile Webview & Query Index",
     date: "Jan 2022 – Jun 2022",
@@ -599,7 +625,7 @@ export const projects = [
     webapp: "https://hadith.muslimbangla.com/?theme=dark",
   },
   {
-    id: 9,
+    id: 10,
     title: "Article Webview",
     subtitle: "Rich Editorial & Publication Reader",
     date: "Sep 2022 – Nov 2022",
@@ -614,7 +640,7 @@ export const projects = [
     webapp: "https://article.muslimbangla.com/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Lecture Webview",
     subtitle: "Audio/Video Streaming Companion Reader",
     date: "Dec 2022 – Feb 2023",
@@ -629,7 +655,7 @@ export const projects = [
     webapp: "https://lecture.muslimbangla.com/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Masail Webview",
     subtitle: "Scholarly Rulings & Indexed Knowledge Base",
     date: "Jun 2022 – Aug 2022",
@@ -644,7 +670,7 @@ export const projects = [
     webapp: "https://masail.muslimbangla.com/",
   },
   {
-    id: 12,
+    id: 13,
     title: "Muslim Dawah Admin API",
     subtitle: "Secure API Services & Automated Notifications",
     date: "Jan 2023 – Oct 2023",
